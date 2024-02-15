@@ -11,6 +11,6 @@ job_df <- read.csv("Occupation Employment and Wage Statistics.csv")
 
 # Data frame combine
 combined_df <- sleep_df %>%
-  left_join(job_df, by = c("Occupation" = "OCC_Title"))
+  left_join(job_df, by = c("Occupation" = "OCC_TITLE"))
 
 # Filter out N/A value which sleep might not have some jobs which wage has
