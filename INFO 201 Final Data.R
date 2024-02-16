@@ -9,6 +9,10 @@ library(testthat)
 sleep_df <- read.csv("Sleep_health_and_lifestyle_dataset.csv")
 job_df <- read.csv("Occupation Employment and Wage Statistics.csv")
 
+# Select only columns we need from job_df
+job_wages_df <- job_df %>%
+  select(OCC_TITLE, H_MEAN, A_MEAN)
+
 # Data frame combine
 combined_df <- sleep_df %>%
   left_join(job_df, by = c("Occupation" = "OCC_TITLE"))
