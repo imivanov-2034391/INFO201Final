@@ -5,25 +5,17 @@ library(dplyr)
 library(stringr)
 library(testthat)
 
-# Loads in two data sets
+
+# Loads in two data sets and the conversion chart
 sleep_df <- read.csv("Sleep_health_and_lifestyle_dataset.csv")
 job_df <- read.csv("Occupation Employment and Wage Statistics.csv")
-<<<<<<< Updated upstream
+conversion_df <- read.csv("Occupation Conversion Chart.csv")
 
-# Select only columns we need from job_df
-job_wages_df <- job_df %>%
-  select(OCC_TITLE, H_MEAN, A_MEAN)
+# Cleans job_df and saved as job_wages_df with only job title and wages columns
+job_wages_df <- job_df %>% select(OCC_TITLE, H_MEAN, A_MEAN)
 
-=======
-#conversion_df <- read.csv("")
-  
->>>>>>> Stashed changes
-# Data frame combine
+#  combine
 combined_df <- sleep_df %>%
-# state_name_abv_df <- data.frame(State.Code = state.abb, State.Name = state.name)
-  mutate(state_abb = state.abb[match(State, state.name)]) %>%
-  left_join(conversion_df, by = c("County" = "County_name", "state_abb" = "State")) 
-  left_join(job_df, by = c("Occupation" = "OCC_TITLE"))
-
-# Filter out N/A value which sleep might not have some jobs which wage has
-
+  #mutate(match(Occupation, Occupation_sleep)) %>%
+  left_join(conversion_df, by = c("Occupation" = "Occupation_sleep")) %>%
+  left_join(job_wages_df, by = c("Corresponding Occupation_job" = "OCC_TITLE"))
