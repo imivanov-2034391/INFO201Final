@@ -25,3 +25,4 @@ combined_df <- sleep_df %>%
   left_join(conversion_df, by = c("Occupation" = "Occupation_sleep")) %>% 
   left_join(job_wages_df, by = c("Corresponding.Occupation_job" = "OCC_TITLE"), relationship = "many-to-many") %>% 
   distinct(Person.ID, .keep_all = TRUE)
+
