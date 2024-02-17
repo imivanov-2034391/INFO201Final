@@ -13,7 +13,7 @@ library(testthat)
 # Loads in two data sets and the conversion chart
 sleep_df <- read.csv("Sleep_health_and_lifestyle_dataset.csv")
 job_df <- read.csv("Occupation Employment and Wage Statistics.csv")
-conversion_df <- read.csv("Occupation Conversion Chart 2.csv")
+conversion_df <- read.csv("Occupation Conversion Chart one-on-one.csv")
 
 
 # Cleans job_df and saved as job_wages_df with only job title and wages columns
