@@ -25,7 +25,7 @@ combined_df <- sleep_df %>%
   distinct(Person.ID, .keep_all = TRUE)
 
 
-# Another way
+# Another way to combine the data frame
 # Combine with job conversion chart first
 #job_wages_df <- job_df %>%
 #  select(OCC_TITLE, H_MEAN, A_MEAN) %>%
