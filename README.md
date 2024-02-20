@@ -1,1 +1,3 @@
-# Info_201_Final_Project
+# INFO 201 Final Project Data Wrangling
+### Section BH Group member: Sera Lee, Lele Zhang, Ivette Ivanov, Sohyun Han
+About: Our project aims to explore the nuanced relationship between job types, salary levels, and sleep health while using reputable data from the U.S. Bureau of Labor Statistics to help discover potential patterns and correlations. Our goal is to present findings through comprehensive graphs and charts, focusing on various job sectors and income brackets related to sleep health. This approach will allow us to observe sleep trends across different jobs and relative salaries. Our goal is to provide a quantified pattern of how the nature and remuneration of work influence sleep health, offering insights for both individuals and policymakers to foster healthy work environments and lifestyles, and encouraging work-life balance among specific occupations.
