@@ -1,249 +1,249 @@
 Occupation_sleep,Corresponding Occupation_job
 Accountant,Accountants and Auditors
 Doctor,Anesthesiologists
-,Cardiologists
-,Chiropractors
-,Dentists
-,"Dentists, All Other Specialists"
-,"Dentists, General"
-,Dermatologists
-,Emergency Medicine Physicians
-,Exercise Physiologists
-,Exercise Physiologists
-,Neurologists
-,Obstetricians and Gynecologists
-,"Ophthalmologists, Except Pediatric"
-,Optometrists
-,Orthodontists
-,"Orthopedic Surgeons, Except Pediatric"
-,Orthotists and Prosthetists
-,Pediatric Surgeons
-,"Pediatricians, General"
-,Pharmacists
-,Physicians
-,"Physicians, All Other"
-,"Physicians, Pathologists"
-,Psychiatrists
-,Psychologists
-,"Psychologists, All Other"
-,Radiologists
-,Surgeons
-,"Surgeons, All Other"
-,Veterinarians
+Doctor,Cardiologists
+Doctor,Chiropractors
+Doctor,Dentists
+Doctor,"Dentists, All Other Specialists"
+Doctor,"Dentists, General"
+Doctor,Dermatologists
+Doctor,Emergency Medicine Physicians
+Doctor,Exercise Physiologists
+Doctor,Exercise Physiologists
+Doctor,Neurologists
+Doctor,Obstetricians and Gynecologists
+Doctor,"Ophthalmologists, Except Pediatric"
+Doctor,Optometrists
+Doctor,Orthodontists
+Doctor,"Orthopedic Surgeons, Except Pediatric"
+Doctor,Orthotists and Prosthetists
+Doctor,Pediatric Surgeons
+Doctor,"Pediatricians, General"
+Doctor,Pharmacists
+Doctor,Physicians
+Doctor,"Physicians, All Other"
+Doctor,"Physicians, Pathologists"
+Doctor,Psychiatrists
+Doctor,Psychologists
+Doctor,"Psychologists, All Other"
+Doctor,Radiologists
+Doctor,Surgeons
+Doctor,"Surgeons, All Other"
+Doctor,Veterinarians
 Engineer,Aerospace Engineering and Operations Technologists and Technicians
-,Aerospace Engineers
-,Agricultural Engineers
-,Aircraft Pilots and Flight Engineers
-,"Airline Pilots, Copilots, and Flight Engineers"
-,Architectural and Engineering Managers
-,Architecture and Engineering Occupations
-,Bioengineers and Biomedical Engineers
-,Chemical Engineers
-,Civil Engineering Technologists and Technicians
-,Civil Engineers
-,Computer Hardware Engineers
-,"Drafters, Engineering Technicians, and Mapping Technicians"
-,Electrical and Electronic Engineering Technologists and Technicians
-,Electrical and Electronics Engineers
-,Electrical Engineers
-,"Electronics Engineers, Except Computer"
-,"Engineering and Architecture Teachers, Postsecondary"
-,"Engineering Teachers, Postsecondary"
-,"Engineering Technologists and Technicians, Except Drafters"
-,"Engineering Technologists and Technicians, Except Drafters, All Other"
-,Engineers
-,"Engineers, All Other"
-,Environmental Engineering Technologists and Technicians
-,Environmental Engineers
-,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
-,Industrial Engineering Technologists and Technicians
-,Industrial Engineers
-,"Industrial Engineers, Including Health and Safety"
-,Locomotive Engineers
-,Locomotive Engineers and Operators
-,Marine Engineers and Naval Architects
-,Materials Engineers
-,Mechanical Engineering Technologists and Technicians
-,Mechanical Engineers
-,"Mining and Geological Engineers, Including Mining Safety Engineers"
-,Miscellaneous Engineers
-,Nuclear Engineers
-,Operating Engineers and Other Construction Equipment Operators
-,Petroleum Engineers
-,"Rail Yard Engineers, Dinkey Operators, and Hostlers"
-,Sales Engineers
-,Ship Engineers
-,Sound Engineering Technicians
-,Stationary Engineers and Boiler Operators
+Engineer,Aerospace Engineers
+Engineer,Agricultural Engineers
+Engineer,Aircraft Pilots and Flight Engineers
+Engineer,"Airline Pilots, Copilots, and Flight Engineers"
+Engineer,Architectural and Engineering Managers
+Engineer,Architecture and Engineering Occupations
+Engineer,Bioengineers and Biomedical Engineers
+Engineer,Chemical Engineers
+Engineer,Civil Engineering Technologists and Technicians
+Engineer,Civil Engineers
+Engineer,Computer Hardware Engineers
+Engineer,"Drafters, Engineering Technicians, and Mapping Technicians"
+Engineer,Electrical and Electronic Engineering Technologists and Technicians
+Engineer,Electrical and Electronics Engineers
+Engineer,Electrical Engineers
+Engineer,"Electronics Engineers, Except Computer"
+Engineer,"Engineering and Architecture Teachers, Postsecondary"
+Engineer,"Engineering Teachers, Postsecondary"
+Engineer,"Engineering Technologists and Technicians, Except Drafters"
+Engineer,"Engineering Technologists and Technicians, Except Drafters, All Other"
+Engineer,Engineers
+Engineer,"Engineers, All Other"
+Engineer,Environmental Engineering Technologists and Technicians
+Engineer,Environmental Engineers
+Engineer,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+Engineer,Industrial Engineering Technologists and Technicians
+Engineer,Industrial Engineers
+Engineer,"Industrial Engineers, Including Health and Safety"
+Engineer,Locomotive Engineers
+Engineer,Locomotive Engineers and Operators
+Engineer,Marine Engineers and Naval Architects
+Engineer,Materials Engineers
+Engineer,Mechanical Engineering Technologists and Technicians
+Engineer,Mechanical Engineers
+Engineer,"Mining and Geological Engineers, Including Mining Safety Engineers"
+Engineer,Miscellaneous Engineers
+Engineer,Nuclear Engineers
+Engineer,Operating Engineers and Other Construction Equipment Operators
+Engineer,Petroleum Engineers
+Engineer,"Rail Yard Engineers, Dinkey Operators, and Hostlers"
+Engineer,Sales Engineers
+Engineer,Ship Engineers
+Engineer,Sound Engineering Technicians
+Engineer,Stationary Engineers and Boiler Operators
 Lawyer,Lawyers
-,Lawyers and Judicial Law Clerks
-,"Lawyers, Judges, and Related Workers"
+Lawyer,Lawyers and Judicial Law Clerks
+Lawyer,"Lawyers, Judges, and Related Workers"
 Manager,Administrative Services and Facilities Managers
-,Administrative Services Managers
-,Advertising and Promotions Managers
-,"Advertising, Marketing, Promotions, Public Relations, and Sales Managers"
-,"Agents and Business Managers of Artists, Performers, and Athletes"
-,Architectural and Engineering Managers
-,Compensation and Benefits Managers
-,Computer and Information Systems Managers
-,Construction Managers
-,Entertainment and Recreation Managers
-,"Entertainment and Recreation Managers, Except Gambling"
-,Facilities Managers
-,"Farmers, Ranchers, and Other Agricultural Managers"
-,Financial Managers
-,Food Service Managers
-,Fundraising Managers
-,Funeral Home Managers
-,Gambling Managers
-,General and Operations Managers
-,Human Resources Managers
-,Industrial Production Managers
-,Lodging Managers
-,"Managers, All Other"
-,Marketing and Sales Managers
-,Marketing Managers
-,Medical and Health Services Managers
-,Miscellaneous Managers
-,Natural Sciences Managers
-,Operations Specialties Managers
-,Personal Service Managers
-,"Personal Service Managers, All Other"
-,"Property, Real Estate, and Community Association Managers"
-,Public Relations and Fundraising Managers
-,Public Relations Managers
-,Purchasing Managers
-,Sales Managers
-,Social and Community Service Managers
-,Training and Development Managers
-,"Transportation, Storage, and Distribution Managers"
+Manager,Administrative Services Managers
+Manager,Advertising and Promotions Managers
+Manager,"Advertising, Marketing, Promotions, Public Relations, and Sales Managers"
+Manager,"Agents and Business Managers of Artists, Performers, and Athletes"
+Manager,Architectural and Engineering Managers
+Manager,Compensation and Benefits Managers
+Manager,Computer and Information Systems Managers
+Manager,Construction Managers
+Manager,Entertainment and Recreation Managers
+Manager,"Entertainment and Recreation Managers, Except Gambling"
+Manager,Facilities Managers
+Manager,"Farmers, Ranchers, and Other Agricultural Managers"
+Manager,Financial Managers
+Manager,Food Service Managers
+Manager,Fundraising Managers
+Manager,Funeral Home Managers
+Manager,Gambling Managers
+Manager,General and Operations Managers
+Manager,Human Resources Managers
+Manager,Industrial Production Managers
+Manager,Lodging Managers
+Manager,"Managers, All Other"
+Manager,Marketing and Sales Managers
+Manager,Marketing Managers
+Manager,Medical and Health Services Managers
+Manager,Miscellaneous Managers
+Manager,Natural Sciences Managers
+Manager,Operations Specialties Managers
+Manager,Personal Service Managers
+Manager,"Personal Service Managers, All Other"
+Manager,"Property, Real Estate, and Community Association Managers"
+Manager,Public Relations and Fundraising Managers
+Manager,Public Relations Managers
+Manager,Purchasing Managers
+Manager,Sales Managers
+Manager,Social and Community Service Managers
+Manager,Training and Development Managers
+Manager,"Transportation, Storage, and Distribution Managers"
 Nurse,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse"
-,Licensed Practical and Licensed Vocational Nurses
-,Nurse Anesthetists
-,Nurse Midwives
-,Nurse Practitioners
-,Registered Nurses
+Nurse,Licensed Practical and Licensed Vocational Nurses
+Nurse,Nurse Anesthetists
+Nurse,Nurse Midwives
+Nurse,Nurse Practitioners
+Nurse,Registered Nurses
 Sales Representative,"Miscellaneous Sales Representatives, Services"
-,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
-,"Sales Representatives, Services"
-,"Sales Representatives, Wholesale and Manufacturing"
-,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
-,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+Sales Representative,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
+Sales Representative,"Sales Representatives, Services"
+Sales Representative,"Sales Representatives, Wholesale and Manufacturing"
+Sales Representative,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+Sales Representative,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
 Salesperson,Counter and Rental Clerks and Parts Salespersons
-,Parts Salespersons
-,Retail Salespersons
+Salesperson,Parts Salespersons
+Salesperson,Retail Salespersons
 Scientist,Agricultural and Food Scientists
-,Animal Scientists
-,Anthropologists and Archeologists
-,Astronomers and Physicists
-,Atmospheric and Space Scientists
-,
-,Biochemists and Biophysicists
-,Biological Scientists
-,"Biological Scientists, All Other"
-,Chemists and Materials Scientists
-,Chemical Technicians
-,Chemists
-,Chemists and Materials Scientists
-,Computer and Information Research Scientists
-,Conservation Scientists
-,Conservation Scientists and Foresters
-,Data Scientists
-,Environmental Scientists and Geoscientists
-,"Environmental Scientists and Specialists, Including Health"
-,Epidemiologists
-,Food Scientists and Technologists
-,"Geoscientists, Except Hydrologists and Geographers"
-,Hydrologists
-,Life Scientists
-,"Life Scientists, All Other"
-,Materials Scientists
-,Medical Scientists
-,"Medical Scientists, Except Epidemiologists"
-,Miscellaneous Life Scientists
-,Miscellaneous Physical Scientists
-,Miscellaneous Social Scientists and Related Workers
-,Physical Scientists
-,"Physical Scientists, All Other"
-,Psychiatrists
-,Psychologists
-,"Psychologists, All Other"
-,"Social Scientists and Related Workers, All Other"
-,Sociologists
-,Soil and Plant Scientists
-,Zoologists and Wildlife Biologists
+Scientist,Animal Scientists
+Scientist,Anthropologists and Archeologists
+Scientist,Astronomers and Physicists
+Scientist,Atmospheric and Space Scientists
+Scientist,
+Scientist,Biochemists and Biophysicists
+Scientist,Biological Scientists
+Scientist,"Biological Scientists, All Other"
+Scientist,Chemists and Materials Scientists
+Scientist,Chemical Technicians
+Scientist,Chemists
+Scientist,Chemists and Materials Scientists
+Scientist,Computer and Information Research Scientists
+Scientist,Conservation Scientists
+Scientist,Conservation Scientists and Foresters
+Scientist,Data Scientists
+Scientist,Environmental Scientists and Geoscientists
+Scientist,"Environmental Scientists and Specialists, Including Health"
+Scientist,Epidemiologists
+Scientist,Food Scientists and Technologists
+Scientist,"Geoscientists, Except Hydrologists and Geographers"
+Scientist,Hydrologists
+Scientist,Life Scientists
+Scientist,"Life Scientists, All Other"
+Scientist,Materials Scientists
+Scientist,Medical Scientists
+Scientist,"Medical Scientists, Except Epidemiologists"
+Scientist,Miscellaneous Life Scientists
+Scientist,Miscellaneous Physical Scientists
+Scientist,Miscellaneous Social Scientists and Related Workers
+Scientist,Physical Scientists
+Scientist,"Physical Scientists, All Other"
+Scientist,Psychiatrists
+Scientist,Psychologists
+Scientist,"Psychologists, All Other"
+Scientist,"Social Scientists and Related Workers, All Other"
+Scientist,Sociologists
+Scientist,Soil and Plant Scientists
+Scientist,Zoologists and Wildlife Biologists
 Software Engineer,"Software and Web Developers, Programmers, and Testers"
-,Software Developers
-,Software Quality Assurance Analysts and Testers
+Software Engineer,Software Developers
+Software Engineer,Software Quality Assurance Analysts and Testers
 Teacher,"Agricultural Sciences Teachers, Postsecondary"
-,"Anthropology and Archeology Teachers, Postsecondary"
-,"Architecture Teachers, Postsecondary"
-,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
-,"Art, Drama, and Music Teachers, Postsecondary"
-,"Arts, Communications, History, and Humanities Teachers, Postsecondary"
-,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
-,"Biological Science Teachers, Postsecondary"
-,"Business Teachers, Postsecondary"
-,"Business Teachers, Postsecondary"
-,"Career/Technical Education Teachers, Middle School"
-,"Career/Technical Education Teachers, Postsecondary"
-,"Career/Technical Education Teachers, Secondary School"
-,"Chemistry Teachers, Postsecondary"
-,"Communications Teachers, Postsecondary"
-,"Computer Science Teachers, Postsecondary"
-,"Criminal Justice and Law Enforcement Teachers, Postsecondary"
-,"Economics Teachers, Postsecondary"
-,"Education and Library Science Teachers, Postsecondary"
-,"Education Teachers, Postsecondary"
-,Elementary and Middle School Teachers
-,"Elementary School Teachers, Except Special Education"
-,"Engineering and Architecture Teachers, Postsecondary"
-,"Engineering Teachers, Postsecondary"
-,"English Language and Literature Teachers, Postsecondary"
-,"Environmental Science Teachers, Postsecondary"
-,"Family and Consumer Sciences Teachers, Postsecondary"
-,"Foreign Language and Literature Teachers, Postsecondary"
-,"Forestry and Conservation Science Teachers, Postsecondary"
-,"Geography Teachers, Postsecondary"
-,"Health Specialties Teachers, Postsecondary"
-,"Health Teachers, Postsecondary"
-,"History Teachers, Postsecondary"
-,"Kindergarten Teachers, Except Special Education"
-,"Law Teachers, Postsecondary"
-,"Law, Criminal Justice, and Social Work Teachers, Postsecondary"
-,"Library Science Teachers, Postsecondary"
-,"Life Sciences Teachers, Postsecondary"
-,"Math and Computer Science Teachers, Postsecondary"
-,"Mathematical Science Teachers, Postsecondary"
-,"Middle School Teachers, Except Special and Career/Technical Education"
-,Miscellaneous Postsecondary Teachers
-,Miscellaneous Teachers and Instructors
-,"Nursing Instructors and Teachers, Postsecondary"
-,Other Teachers and Instructors
-,"Philosophy and Religion Teachers, Postsecondary"
-,"Physical Sciences Teachers, Postsecondary"
-,"Physics Teachers, Postsecondary"
-,"Political Science Teachers, Postsecondary"
-,Postsecondary Teachers
-,"Postsecondary Teachers, All Other"
-,Preschool and Kindergarten Teachers
-,"Preschool Teachers, Except Special Education"
-,"Preschool, Elementary, Middle, Secondary, and Special Education Teachers"
-,"Psychology Teachers, Postsecondary"
-,"Recreation and Fitness Studies Teachers, Postsecondary"
-,Secondary School Teachers
-,"Secondary School Teachers, Except Special and Career/Technical Education"
-,Self-Enrichment Teachers
-,"Social Sciences Teachers, Postsecondary"
-,"Social Sciences Teachers, Postsecondary, All Other"
-,"Social Work Teachers, Postsecondary"
-,"Sociology Teachers, Postsecondary"
-,Special Education Teachers
-,"Special Education Teachers, All Other"
-,"Special Education Teachers, Kindergarten and Elementary School"
-,"Special Education Teachers, Middle School"
-,"Special Education Teachers, Preschool"
-,"Special Education Teachers, Secondary School"
-,"Substitute Teachers, Short-Term"
-,"Teachers and Instructors, All Other"
-,Tutors
+Teacher,"Anthropology and Archeology Teachers, Postsecondary"
+Teacher,"Architecture Teachers, Postsecondary"
+Teacher,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+Teacher,"Art, Drama, and Music Teachers, Postsecondary"
+Teacher,"Arts, Communications, History, and Humanities Teachers, Postsecondary"
+Teacher,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+Teacher,"Biological Science Teachers, Postsecondary"
+Teacher,"Business Teachers, Postsecondary"
+Teacher,"Business Teachers, Postsecondary"
+Teacher,"Career/Technical Education Teachers, Middle School"
+Teacher,"Career/Technical Education Teachers, Postsecondary"
+Teacher,"Career/Technical Education Teachers, Secondary School"
+Teacher,"Chemistry Teachers, Postsecondary"
+Teacher,"Communications Teachers, Postsecondary"
+Teacher,"Computer Science Teachers, Postsecondary"
+Teacher,"Criminal Justice and Law Enforcement Teachers, Postsecondary"
+Teacher,"Economics Teachers, Postsecondary"
+Teacher,"Education and Library Science Teachers, Postsecondary"
+Teacher,"Education Teachers, Postsecondary"
+Teacher,Elementary and Middle School Teachers
+Teacher,"Elementary School Teachers, Except Special Education"
+Teacher,"Engineering and Architecture Teachers, Postsecondary"
+Teacher,"Engineering Teachers, Postsecondary"
+Teacher,"English Language and Literature Teachers, Postsecondary"
+Teacher,"Environmental Science Teachers, Postsecondary"
+Teacher,"Family and Consumer Sciences Teachers, Postsecondary"
+Teacher,"Foreign Language and Literature Teachers, Postsecondary"
+Teacher,"Forestry and Conservation Science Teachers, Postsecondary"
+Teacher,"Geography Teachers, Postsecondary"
+Teacher,"Health Specialties Teachers, Postsecondary"
+Teacher,"Health Teachers, Postsecondary"
+Teacher,"History Teachers, Postsecondary"
+Teacher,"Kindergarten Teachers, Except Special Education"
+Teacher,"Law Teachers, Postsecondary"
+Teacher,"Law, Criminal Justice, and Social Work Teachers, Postsecondary"
+Teacher,"Library Science Teachers, Postsecondary"
+Teacher,"Life Sciences Teachers, Postsecondary"
+Teacher,"Math and Computer Science Teachers, Postsecondary"
+Teacher,"Mathematical Science Teachers, Postsecondary"
+Teacher,"Middle School Teachers, Except Special and Career/Technical Education"
+Teacher,Miscellaneous Postsecondary Teachers
+Teacher,Miscellaneous Teachers and Instructors
+Teacher,"Nursing Instructors and Teachers, Postsecondary"
+Teacher,Other Teachers and Instructors
+Teacher,"Philosophy and Religion Teachers, Postsecondary"
+Teacher,"Physical Sciences Teachers, Postsecondary"
+Teacher,"Physics Teachers, Postsecondary"
+Teacher,"Political Science Teachers, Postsecondary"
+Teacher,Postsecondary Teachers
+Teacher,"Postsecondary Teachers, All Other"
+Teacher,Preschool and Kindergarten Teachers
+Teacher,"Preschool Teachers, Except Special Education"
+Teacher,"Preschool, Elementary, Middle, Secondary, and Special Education Teachers"
+Teacher,"Psychology Teachers, Postsecondary"
+Teacher,"Recreation and Fitness Studies Teachers, Postsecondary"
+Teacher,Secondary School Teachers
+Teacher,"Secondary School Teachers, Except Special and Career/Technical Education"
+Teacher,Self-Enrichment Teachers
+Teacher,"Social Sciences Teachers, Postsecondary"
+Teacher,"Social Sciences Teachers, Postsecondary, All Other"
+Teacher,"Social Work Teachers, Postsecondary"
+Teacher,"Sociology Teachers, Postsecondary"
+Teacher,Special Education Teachers
+Teacher,"Special Education Teachers, All Other"
+Teacher,"Special Education Teachers, Kindergarten and Elementary School"
+Teacher,"Special Education Teachers, Middle School"
+Teacher,"Special Education Teachers, Preschool"
+Teacher,"Special Education Teachers, Secondary School"
+Teacher,"Substitute Teachers, Short-Term"
+Teacher,"Teachers and Instructors, All Other"
+Teacher,Tutors
