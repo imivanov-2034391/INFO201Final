@@ -13,7 +13,7 @@ library(testthat)
 # Data Joining
 
 # Loads in two data sets and the conversion chart
-sleep_df <- read.csv("Sleep_health_and_lifestyle_dataset.csv")
+sleep_df <- read.csv("Sleep Health and Lifestyle Dataset.csv")
 job_df <- read.csv("Occupation Employment and Wage Statistics.csv")
 conversion_df <- read.csv("Occupation Conversion Chart.csv")
 
