@@ -56,3 +56,8 @@ percentage_occupation <- combined_df %>%
   group_by(combined_df$Occupation) %>%
   summarize(percentage = round(n() / nrow(combined_df) * 100))
 
+
+
+# Export unified and cleaned CSV dataset file
+write.csv(combined_df, "Sleep and Occupation Combined Dataset.csv")
+  
