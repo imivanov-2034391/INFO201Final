@@ -2,7 +2,7 @@
 
 ## OVERVIEW TAB INFO
 
-overview_tab <- tabPanel("Overview Tab Title",
+overview_tab <- tabPanel("Introductory Tab Title",
    h1("Some title"),
    p("some explanation")
 )
@@ -15,11 +15,11 @@ viz_1_sidebar <- sidebarPanel(
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("Vizualization 1 Title"),
+  h2("Interactive 1 Title"),
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_1_tab <- tabPanel("Viz 1 tab title",
+viz_1_tab <- tabPanel("Interactive 1 tab title",
   sidebarLayout(
     viz_1_sidebar,
     viz_1_main_panel
@@ -34,11 +34,11 @@ viz_2_sidebar <- sidebarPanel(
 )
 
 viz_2_main_panel <- mainPanel(
-  h2("Vizualization 2 Title"),
+  h2("Interactive 2 Title"),
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_2_tab <- tabPanel("Viz 2 tab title",
+viz_2_tab <- tabPanel("Interactive 2 tab title",
   sidebarLayout(
     viz_2_sidebar,
     viz_2_main_panel
@@ -53,11 +53,11 @@ viz_3_sidebar <- sidebarPanel(
 )
 
 viz_3_main_panel <- mainPanel(
-  h2("Vizualization 3 Title"),
+  h2("Interactive 3 Title"),
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_3_tab <- tabPanel("Viz 3 tab title",
+viz_3_tab <- tabPanel("Interactive 3 tab title",
   sidebarLayout(
     viz_3_sidebar,
     viz_3_main_panel
