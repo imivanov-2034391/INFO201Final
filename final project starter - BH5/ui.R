@@ -6,6 +6,9 @@ library(ggplot2)
 library(plotly)
 library(bslib)
 
+# Read csv
+Occ_physhealth_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
+
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introductory Tab Title",

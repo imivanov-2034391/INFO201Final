@@ -6,6 +6,9 @@ library(ggplot2)
 library(plotly)
 library(dplyr)
 
+# Read csv
+Occ_physhealth_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
+
 server <- function(input, output){
   
   # TODO Make outputs based on the UI inputs here
