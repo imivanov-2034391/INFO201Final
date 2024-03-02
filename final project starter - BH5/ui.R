@@ -6,8 +6,11 @@ library(ggplot2)
 library(plotly)
 library(bslib)
 
-# Read csv
-Occ_physhealth_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
+# Color theme (you can change)
+my_theme <- bs_theme(bg = "white", #background
+                     fg = "black", #foreground color
+                     primary = "#FFBE98", # primary color
+)
 
 ## OVERVIEW TAB INFO
 
