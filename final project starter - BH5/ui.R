@@ -85,7 +85,7 @@ conclusion_tab <- tabPanel("Conclusion Tab Title",
 
 
 
-ui <- navbarPage("Example Project Title",
+ui <- navbarPage("INFO 201 Final Project",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
