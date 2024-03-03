@@ -22,10 +22,21 @@ overview_tab <- tabPanel("Introduction",
    h4("INFO 201 BH-5 Final Project"),
    p("March 6th, 2024"),
    h3("Introduction"),
-   p("context"),
-   p("question1"),
-   p("question2"),
-   p("question3"),
+   p("In today’s society, where work plays a central role in our daily lives, 
+   understanding the impact of specific occupation on individuals’ physical health 
+   is a crucial topic. The background of one’s job can severely influence well-being, 
+   including the risk factors to necessary lifestyle adjustments. Past studies on work 
+   and health have focused on physical safety and mitigating occupational hazards. 
+   Although these concerns still remain, this investigation aims to expand the discussion 
+   to include deeper factors such as, mental health, stress, and sleep health. 
+   By examining and comparing the data collected, we not only enhance our understanding 
+   of individual health outcomes but also inform a broader societal discussion on work-life 
+   balance, workplace wellness, and public health policies. Our discussion will dive into 
+   the compelling questions aimed to investigate the correlation between one’s occupation 
+   and physical health and to recognize the quantified pattern that emerges from this exploration."),
+   p("1. How do physical activity levels vary among different occupations?"),
+   p("2. What occupations among the dataset have the best/worst (average) quality of sleep?"),
+   p("3. Does a higher salary in high-stress jobs equate to poorer physical health?"),
    h3("Related Work"),
    p("context"),
    h3("Datasets Used"),
