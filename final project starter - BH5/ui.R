@@ -14,7 +14,7 @@ my_theme <- bs_theme(bg = "white", #background
 
 ## OVERVIEW TAB INFO
 
-overview_tab <- tabPanel("Introductory Tab Title",
+overview_tab <- tabPanel("Introduction",
    h1("Some title"),
    p("some explanation")
 )
@@ -78,7 +78,7 @@ viz_3_tab <- tabPanel("Interactive 3 tab title",
 
 ## CONCLUSIONS TAB INFO
 
-conclusion_tab <- tabPanel("Conclusion Tab Title",
+conclusion_tab <- tabPanel("Conclusion",
  h1("Some title"),
  p("some conclusions")
 )
