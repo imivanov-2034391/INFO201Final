@@ -4,7 +4,9 @@
 
 library(ggplot2)
 library(plotly)
+library(dplyr)
 library(bslib)
+library(shiny)
 
 # Color theme (you can change)
 my_theme <- bs_theme(bg = "white", #background
@@ -14,9 +16,28 @@ my_theme <- bs_theme(bg = "white", #background
 
 ## OVERVIEW TAB INFO
 
-overview_tab <- tabPanel("Introductory Tab Title",
-   h1("Some title"),
-   p("some explanation")
+overview_tab <- tabPanel("Introduction",
+   h1("TITLE"),
+   p("Group Members: Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
+   h4("INFO 201 BH-5 Final Project"),
+   p("March 6th, 2024"),
+   h3("Introduction"),
+   p("context"),
+   p("question1"),
+   p("question2"),
+   p("question3"),
+   h3("Related Work"),
+   p("context"),
+   h3("Datasets Used"),
+   p("context"),
+   h3("Related Work"),
+   p("context"),
+   h3("Implications"),
+   p("context"),
+   h3("Limitations/Challenges"),
+   p("context"),
+   
+   
 )
 
 ## VIZ 1 TAB INFO
@@ -78,14 +99,23 @@ viz_3_tab <- tabPanel("Interactive 3 tab title",
 
 ## CONCLUSIONS TAB INFO
 
-conclusion_tab <- tabPanel("Conclusion Tab Title",
- h1("Some title"),
- p("some conclusions")
+conclusion_tab <- tabPanel("Conclusion",
+ h1("Conclusion"),
+ h3("Takeaway 1"),
+ p("context"),
+ h3("Takeaway 2"),
+ p("context"),
+ h3("Takeaway 3"),
+ p("context"),
+ h3("Important Insights"),
+ p("context"),
+ h3("Broader Implications"),
+ p("context")
 )
 
 
 
-ui <- navbarPage("Example Project Title",
+ui <- navbarPage("Project Title",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
