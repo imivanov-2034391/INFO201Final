@@ -111,11 +111,11 @@ conclusion_tab <- tabPanel("Conclusion",
  p("context"),
  h3("Broader Implications"),
  p("context")
+
 )
 
 
-
-ui <- navbarPage("Project Title",
+ui <- navbarPage("INFO 201 Final Project",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
