@@ -46,9 +46,24 @@ server <- function(input, output){
   
   
   
-  # Interactive Page 2
+ # Interactive Page 2
   
   output$sle_occ_plot <- renderPlotly({
+    # Filter the data based on the selected plot type
+    if (input$sle_occ_plot_type == "Best Quality of Sleep") {
+      filtered_df <- combined_df %>% arrange(Quality.of.Sleep) %>% slice(1:10)
+    } else if (input$sle_occ_plot_type == "Worst Quality of Sleep") {
+      filtered_df <- combined_df %>% arrange(desc(Quality.of.Sleep)) %>% slice(1:10)
+    } else {
+      filtered_df <- combined_df  # Keep the original dataset if neither option is selected
+    }
+    
+    # Create a bar plot using plotly
+    p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar') %>%
+      layout(title = paste(input$sle_occ_plot_type, "vs. Occupation"))
+    
+    # Return the plotly object
+    p
   })
   
   
