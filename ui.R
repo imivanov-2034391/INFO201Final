@@ -54,13 +54,18 @@ overview_tab <- tabPanel("Introduction",
 ## VIZ 1 TAB INFO
 
 viz_1_sidebar <- sidebarPanel(
-  h2("Options for graph"),
-  #TODO: Put inputs for modifying graph here
+  h3("Options"),
+  checkboxInput (
+    inputId = "phy_occ_plot_60" ,
+    label = "Physical activity levels above 60"
+  )
+  
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("Interactive 1 Title"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  h2("1.How do physical activity levels vary among different occupations?"),
+  h3("physical activity vs occupation"),
+  plotlyOutput(outputId = "phy_occ_plot")
 )
 
 viz_1_tab <- tabPanel("Interactive Page 1",
@@ -73,7 +78,7 @@ viz_1_tab <- tabPanel("Interactive Page 1",
 ## VIZ 2 TAB INFO
 
 viz_2_sidebar <- sidebarPanel(
-  h2("Options for graph"),
+  h3("Options"),
   #TODO: Put inputs for modifying graph here
 )
 
@@ -92,7 +97,7 @@ viz_2_tab <- tabPanel("Interactive Page 2",
 ## VIZ 3 TAB INFO
 
 viz_3_sidebar <- sidebarPanel(
-  h2("Options for graph"),
+  h3("Options"),
   #TODO: Put inputs for modifying graph here
 )
 
