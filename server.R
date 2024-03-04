@@ -48,6 +48,8 @@ server <- function(input, output){
   
   # Interactive Page 2
   
+  output$sle_occ_plot <- renderPlotly({
+  })
   
   
   
@@ -55,7 +57,8 @@ server <- function(input, output){
   
   # Interactive Page 3
   
-  
+  output$sal_phy_plot <- renderPlotly({
+  })
   
   
   

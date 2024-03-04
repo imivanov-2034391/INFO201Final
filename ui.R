@@ -14,6 +14,7 @@ my_theme <- bs_theme(bg = "white", #background
                      primary = "#FFC0CB", # primary color
 )
 
+
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introduction",
@@ -89,7 +90,7 @@ viz_2_sidebar <- sidebarPanel(
 viz_2_main_panel <- mainPanel(
   h2("2. What occupations among the dataset have the best/worst (average) quality of sleep?"),
   h3("Sleep Median vs. Occupation"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  plotlyOutput(outputId = "sle_occ_plot")
 )
 
 viz_2_tab <- tabPanel("Interactive Page 2",
@@ -111,7 +112,7 @@ viz_3_sidebar <- sidebarPanel(
 viz_3_main_panel <- mainPanel(
   h2("3. Does a higher salary in high-stress jobs equate to poorer physical health?"),
   h3("Salary vs. Physical Health"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  plotlyOutput(outputId = "sal_phy_plot")
 )
 
 viz_3_tab <- tabPanel("Interactive Page 3",
