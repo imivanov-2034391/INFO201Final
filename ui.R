@@ -64,7 +64,7 @@ viz_1_sidebar <- sidebarPanel(
 
 viz_1_main_panel <- mainPanel(
   h2("1.How do physical activity levels vary among different occupations?"),
-  h3("physical activity vs occupation"),
+  h3("Physical Activity vs. Occupation"),
   plotlyOutput(outputId = "phy_occ_plot")
 )
 
@@ -83,7 +83,8 @@ viz_2_sidebar <- sidebarPanel(
 )
 
 viz_2_main_panel <- mainPanel(
-  h2("Interactive 2 Title"),
+  h2("2. What occupations among the dataset have the best/worst (average) quality of sleep?"),
+  h3("Sleep Median vs. Occupation"),
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
@@ -102,7 +103,8 @@ viz_3_sidebar <- sidebarPanel(
 )
 
 viz_3_main_panel <- mainPanel(
-  h2("Interactive 3 Title"),
+  h2("3. Does a higher salary in high-stress jobs equate to poorer physical health?"),
+  h3("Salary vs. Physical Health"),
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
