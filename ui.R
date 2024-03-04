@@ -51,6 +51,8 @@ overview_tab <- tabPanel("Introduction",
    
 )
 
+
+
 ## VIZ 1 TAB INFO
 
 viz_1_sidebar <- sidebarPanel(
@@ -75,6 +77,8 @@ viz_1_tab <- tabPanel("Interactive Page 1",
   )
 )
 
+
+
 ## VIZ 2 TAB INFO
 
 viz_2_sidebar <- sidebarPanel(
@@ -94,6 +98,8 @@ viz_2_tab <- tabPanel("Interactive Page 2",
     viz_2_main_panel
   )
 )
+
+
 
 ## VIZ 3 TAB INFO
 
@@ -115,6 +121,8 @@ viz_3_tab <- tabPanel("Interactive Page 3",
   )
 )
 
+
+
 ## CONCLUSIONS TAB INFO
 
 conclusion_tab <- tabPanel("Conclusion",
@@ -133,7 +141,7 @@ conclusion_tab <- tabPanel("Conclusion",
 )
 
 
-ui <- navbarPage("INFO 201 Final Project",
+ui <- navbarPage("INFO 201 Final Project - BH Group 5",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
