@@ -11,7 +11,7 @@ library(shiny)
 # Color theme (you can change)
 my_theme <- bs_theme(bg = "white", #background
                      fg = "black", #foreground color
-                     primary = "#FFBE98", # primary color
+                     primary = "#FFC0CB", # primary color
 )
 
 ## OVERVIEW TAB INFO
