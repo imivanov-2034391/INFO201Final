@@ -84,7 +84,12 @@ viz_1_tab <- tabPanel("Interactive Page 1",
 
 viz_2_sidebar <- sidebarPanel(
   h3("Options"),
-  #TODO: Put inputs for modifying graph here
+  radioButtons(
+    inputId = "sle_occ_plot_type",
+    label = "Select plot type:",
+    choices = c("Best Quality of Sleep", "Worst Quality of Sleep"),
+    selected = "Best Quality of Sleep"
+  )
 )
 
 viz_2_main_panel <- mainPanel(
@@ -94,12 +99,11 @@ viz_2_main_panel <- mainPanel(
 )
 
 viz_2_tab <- tabPanel("Interactive Page 2",
-  sidebarLayout(
-    viz_2_sidebar,
-    viz_2_main_panel
-  )
+                      sidebarLayout(
+                        viz_2_sidebar,
+                        viz_2_main_panel
+                      )
 )
-
 
 
 ## VIZ 3 TAB INFO
