@@ -31,7 +31,7 @@ viz_1_main_panel <- mainPanel(
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_1_tab <- tabPanel("Interactive 1 tab title",
+viz_1_tab <- tabPanel("Interactive Page 1",
   sidebarLayout(
     viz_1_sidebar,
     viz_1_main_panel
@@ -50,7 +50,7 @@ viz_2_main_panel <- mainPanel(
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_2_tab <- tabPanel("Interactive 2 tab title",
+viz_2_tab <- tabPanel("Interactive Page 2",
   sidebarLayout(
     viz_2_sidebar,
     viz_2_main_panel
@@ -69,7 +69,7 @@ viz_3_main_panel <- mainPanel(
   # plotlyOutput(outputId = "your_viz_1_output_id")
 )
 
-viz_3_tab <- tabPanel("Interactive 3 tab title",
+viz_3_tab <- tabPanel("Interactive Page 3",
   sidebarLayout(
     viz_3_sidebar,
     viz_3_main_panel
