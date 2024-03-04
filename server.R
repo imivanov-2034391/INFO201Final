@@ -5,6 +5,8 @@
 library(ggplot2)
 library(plotly)
 library(dplyr)
+library(bslib)
+library(shiny)
 
 # Load data
 combined_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
