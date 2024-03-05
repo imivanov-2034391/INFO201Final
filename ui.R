@@ -9,10 +9,11 @@ library(bslib)
 library(shiny)
 
 # Color theme
-my_theme <- bs_theme(bg = "#D3BBA4", #background
+my_theme <- bs_theme(version = 3, 
+                     bootswatch = "flatly",
+                     bg = "#F2E7D4", #background
                      fg = "black", #foreground color
-                     primary = "#FFC0CB", # primary color
-)
+                     )
 
 
 
