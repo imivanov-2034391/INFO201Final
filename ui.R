@@ -80,11 +80,12 @@ overview_tab <- tabPanel("Introduction",
    ),
    p(""),
    h3("Limitations & Challenges"),
+   
+   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="15%", width="15%", align="right"),
+   
    p("The following visualizations are very much a limited snapshot of the sleep health of individuals 
       in a particular set of occupations within the past 3 years in the United States (as written in 2024)."),
    
-   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="20%", width="20%", align="right"),
-      
    tags$b("Many types of occupations are not included, and thus this cannot be taken as truly representative 
       of the diverse workforce of the U.S. There is a small number of data points even within the existing 
       occupations in the dataset, and is a rather small sample of the variety of working individuals and their 
@@ -107,55 +108,8 @@ overview_tab <- tabPanel("Introduction",
       momentary health of a few individuals."),
     
   tags$b("Overall, our compiled dataset is rather limited in terms of timeframe, the types of occupations represented, and simply the number of data points available."),
-   
-   h3("Related Work"),
-   
-   p(""),
- tags$ul(
-   
-  tags$li(tags$b(em("CDC (2022) Sleep for good health, Centers for Disease Control and Prevention."))),
-      a("https://www.cdc.gov/sleep/features/getting-enough-sleep.html"),
-      p(""),
-  
-      p("Contains background information on sleep health and quality, along with other sources on sleep quality, 
-      disorders, and outreach programs. We used the CDC website in order to gain a basic understanding of how sleep may impact health."),
-      
-  tags$li(tags$b(em("Functional and economic impact of sleep loss and sleep-related disorders’, 
-                        in Sleep Disorders and Sleep Deprivation: An Unmet Public Health Problem. National Academies Press (US)."))),
-      a("https://www.ncbi.nlm.nih.gov/books/NBK19958/"),
-      p(""),
-      
-      p("A source that looks largely at the broader economic impact of sleep deprivation on the healthcare system. 
-        While that isn’t the main focus of our project, it is one of the references that made us consider how economics 
-        and finances play a role in regard to sleep deprivation."),
-      
-  tags$li(tags$b(em("Who gets the best sleep? Ethnic and socioeconomic 
-                        factors related to sleep complaints, Journal of Sleep Medicine, 11(5), pp. 470–478. "))),
-      a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2861987/ "),
-      p("Indicates that there are a variety of socioeconomic factors that may lead to insufficient sleep, including wages."),
-      
-      p("A source that looks largely at the broader economic impact of sleep deprivation on the healthcare system. 
-        While that isn’t the main focus of our project, it is one of the references that made us consider how economics 
-        and finances play a role in regard to sleep deprivation."),
-  
-  tags$li(tags$b(em("The association between sleep disorders, employment, and income among adults in the United States"))),
-      a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9340609/"),
-      p("It shows that people with poor sleep health have lower unemployment rates, 
-      lower wages, and higher utilization of welfare income. 
-      Considers a number of demographic factors such as age, race, and medical conditions."),
-      
-      p("A source that looks largely at the broader economic impact of sleep deprivation on the healthcare system. 
-        While that isn’t the main focus of our project, it is one of the references that made us consider how economics 
-        and finances play a role in regard to sleep deprivation."),
-  
-  
-  tags$li(tags$b(em("‘Why sleep matters—the economic costs of insufficient sleep’, Rand Health Quarterly, 6(4), p. 11."))),
-      a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627640/"),
-      p(""),
-      
-      p("Frames the issue of insufficient sleep as a matter of public health, and details everything related to that, 
-        including economic factors, has the main objective of quantifying the cost of insufficient sleep. "),
- ),) 
+
+  ) 
 
 
 
@@ -268,9 +222,32 @@ conclusion_tab <- tabPanel("Conclusion",
    jobs can lead to increased efficiency and performance in the workplace."),
  h3("Broader Implications"),
  
- img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="40%", width="40%", align="right"),
+ img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="30%", width="30%", align="right"),
  
- p("context")
+ p("The data on physical health and wages disparities across occupations carries 
+   significant Implications for various aspects of our society. By understanding 
+   the physical demand and compensation associated with different jobs, employers 
+   and policymakers can enhance workforce well-being and job satisfaction while 
+   also promoting public health."),
+   
+ p("It should be noted that personal well-being can have broader economic 
+   implications internationally. Employee struggles such as insufficient sleep has 
+   been linked to lost GDP and lower labor productivity in industrialized countries 
+   such as Canada, Germany, Japan, the United Kingdom, and the United States 
+   (Hafner et al, 2017). In the United States alone, sleep deprivation leads to an 
+   estimated $411 billion loss annually from the nation’s GDP (Preidt 2016). Thus, 
+   addressing the physical demands of occupation and its compensation does not only 
+   contribute to greater economic equity and social justice, but also link to 
+   national issues."),
+   
+ p("Our findings, presented through comprehensive graphs and charts focusing on 
+   various job sectors and income, allow us to observe health trends across 
+   different jobs and relative salaries. This data can inform career guidance 
+   and education to students, empowering individuals to make informed decisions 
+   about their career paths. Overall, utilizing the quantified pattern of how the 
+   nature and remuneration of work influence physical health has potential to drive 
+   positive change across multiple domains, facilitating healthier work environments, 
+   lifestyles, and a more prosperous society.")
 
 )
 
