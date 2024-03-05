@@ -19,7 +19,7 @@ my_theme <- bs_theme(bg = "white", #background
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introduction",
-   h1("The Impact of Occupation on Sleep Health"),
+   h1("The Impact of Occupation on Physical Health"),
    h4("INFO 201 BH-5 Final Project"),
    tags$b("Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    p("March 6th, 2024"),
