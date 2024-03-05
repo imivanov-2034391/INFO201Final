@@ -237,11 +237,30 @@ viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health"
 conclusion_tab <- tabPanel("Conclusion",
  h1("Conclusion"),
  h3("Takeaway 1"),
- p("context"),
+ p("To illustrate the varying levels of physical activity required by different 
+    occupations, our first graph highlights the significance of acknowledging these 
+    differences. By considering the physical activity levels in various occupations, 
+    employers can adjust their lifestyle to mitigate potential risks associated with 
+    excessive physical strain. In addition, individuals, such as college students who 
+    are considering these occupations, can make more informed decisions about their 
+    career paths."),
  h3("Takeaway 2"),
- p("context"),
+ p("Sleep quality is important for both physical and mental functioning. Although 
+   sleep quality severely influenced by individual lifestyle, we can generalize the 
+   average sleep quality of occupations based on responses from individuals currently 
+   in those positions. Adequate sleep is critical for maintaining cognitive functions 
+   such as memory, attention, and decision-making abilities. While lack of sleep over 
+   time can contribute to various health issues such as obesity, type 2 diabetes, high 
+   blood pressure, heart disease, stroke, poor mental health, and even early death 
+   (Centers for Disease Control, 2022). Examining the correlation between job type 
+   and sleep health is crucial for long-term career success and well-being."),
  h3("Takeaway 3"),
- p("context"),
+ p("Have you ever wondered if the physical demands are adequately compensated? 
+   Though it may seem straightforward, fair compensation for the physical burden of 
+   a job serves as a significant motivator for workers. Aligning wages with job 
+   demands contributes to the economic equity by recognizing the value of different 
+   types of work. Furthermore, ensuring wages reflect the physical burden of the 
+   jobs can lead to increased efficiency and performance in the workplace."),
  h3("Important Insights"),
  p("context"),
  h3("Broader Implications"),
