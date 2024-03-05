@@ -19,8 +19,8 @@ my_theme <- bs_theme(bg = "white", #background
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introduction",
-   tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h1("The Impact of Occupation on Physical Health"),
+   tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h3("Introduction"),
    
    img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="40%", width="40%", align="right"),
