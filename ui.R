@@ -9,10 +9,11 @@ library(bslib)
 library(shiny)
 
 # Color theme
-my_theme <- bs_theme(bg = "white", #background
+my_theme <- bs_theme(version = 3, 
+                     bootswatch = "flatly",
+                     bg = "#F2E7D4", #background
                      fg = "black", #foreground color
-                     primary = "#FFC0CB", # primary color
-)
+                     )
 
 
 
@@ -23,7 +24,7 @@ overview_tab <- tabPanel("Introduction",
    tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h3("Introduction"),
    
-   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="40%", width="40%", align="right"),
+   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="28%", width="28%", align="right"),
    
    p("In today’s society, where work plays a central role in our daily lives, 
    understanding the impact of specific occupation on individuals’ physical health 
@@ -82,7 +83,7 @@ overview_tab <- tabPanel("Introduction",
    p("The following visualizations are very much a limited snapshot of the sleep health of individuals 
       in a particular set of occupations within the past 3 years in the United States (as written in 2024)."),
    
-   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="25%", width="25%", align="right"),
+   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="20%", width="20%", align="right"),
       
    tags$b("Many types of occupations are not included, and thus this cannot be taken as truly representative 
       of the diverse workforce of the U.S. There is a small number of data points even within the existing 
@@ -107,8 +108,6 @@ overview_tab <- tabPanel("Introduction",
     
   tags$b("Overall, our compiled dataset is rather limited in terms of timeframe, the types of occupations represented, and simply the number of data points available."),
    
-   h3("Implications"),
-   p("context"),
    h3("Related Work"),
    
    p(""),
@@ -246,21 +245,46 @@ viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health"
 
 conclusion_tab <- tabPanel("Conclusion",
  h1("Conclusion"),
+
+ img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="30%", width="30%", align="left"),
+ 
+ 
  h3("Takeaway 1"),
- p("context"),
+ p("To illustrate the varying levels of physical activity required by different 
+    occupations, our first graph highlights the significance of acknowledging these 
+    differences. By considering the physical activity levels in various occupations, 
+    employers can adjust their lifestyle to mitigate potential risks associated with 
+    excessive physical strain. In addition, individuals, such as college students who 
+    are considering these occupations, can make more informed decisions about their 
+    career paths."),
  h3("Takeaway 2"),
- p("context"),
+ p("Sleep quality is important for both physical and mental functioning. Although 
+   sleep quality severely influenced by individual lifestyle, we can generalize the 
+   average sleep quality of occupations based on responses from individuals currently 
+   in those positions. Adequate sleep is critical for maintaining cognitive functions 
+   such as memory, attention, and decision-making abilities. While lack of sleep over 
+   time can contribute to various health issues such as obesity, type 2 diabetes, high 
+   blood pressure, heart disease, stroke, poor mental health, and even early death 
+   (Centers for Disease Control, 2022). Examining the correlation between job type 
+   and sleep health is crucial for long-term career success and well-being."),
  h3("Takeaway 3"),
- p("context"),
- h3("Important Insights"),
- p("context"),
+ p("Have you ever wondered if the physical demands are adequately compensated? 
+   Though it may seem straightforward, fair compensation for the physical burden of 
+   a job serves as a significant motivator for workers. Aligning wages with job 
+   demands contributes to the economic equity by recognizing the value of different 
+   types of work. Furthermore, ensuring wages reflect the physical burden of the 
+   jobs can lead to increased efficiency and performance in the workplace."),
  h3("Broader Implications"),
+ 
+ img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="40%", width="40%", align="right"),
+ 
  p("context")
 
 )
 
 
 ui <- navbarPage("The Impact of Occupation on Physical Health Report",
+  theme = my_theme,
   overview_tab,
   viz_1_tab,
   viz_2_tab,
