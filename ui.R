@@ -9,7 +9,7 @@ library(bslib)
 library(shiny)
 
 # Color theme
-my_theme <- bs_theme(bg = "white", #background
+my_theme <- bs_theme(bg = "#D3BBA4", #background
                      fg = "black", #foreground color
                      primary = "#FFC0CB", # primary color
 )
@@ -23,7 +23,7 @@ overview_tab <- tabPanel("Introduction",
    tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h3("Introduction"),
    
-   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="40%", width="40%", align="right"),
+   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="28%", width="28%", align="right"),
    
    p("In today’s society, where work plays a central role in our daily lives, 
    understanding the impact of specific occupation on individuals’ physical health 
@@ -82,7 +82,7 @@ overview_tab <- tabPanel("Introduction",
    p("The following visualizations are very much a limited snapshot of the sleep health of individuals 
       in a particular set of occupations within the past 3 years in the United States (as written in 2024)."),
    
-   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="25%", width="25%", align="right"),
+   img(src = 'https://haverfordlibrary.org/wp-content/uploads/2016/09/Bureau_of_labor_statistics_logo-1024x897.png', height="20%", width="20%", align="right"),
       
    tags$b("Many types of occupations are not included, and thus this cannot be taken as truly representative 
       of the diverse workforce of the U.S. There is a small number of data points even within the existing 
@@ -236,6 +236,10 @@ viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health"
 
 conclusion_tab <- tabPanel("Conclusion",
  h1("Conclusion"),
+
+ img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="30%", width="30%", align="left"),
+ 
+ 
  h3("Takeaway 1"),
  p("To illustrate the varying levels of physical activity required by different 
     occupations, our first graph highlights the significance of acknowledging these 
@@ -261,15 +265,17 @@ conclusion_tab <- tabPanel("Conclusion",
    demands contributes to the economic equity by recognizing the value of different 
    types of work. Furthermore, ensuring wages reflect the physical burden of the 
    jobs can lead to increased efficiency and performance in the workplace."),
- h3("Important Insights"),
- p("context"),
  h3("Broader Implications"),
+ 
+ img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="40%", width="40%", align="right"),
+ 
  p("context")
 
 )
 
 
 ui <- navbarPage("The Impact of Occupation on Physical Health Report",
+  theme = my_theme,
   overview_tab,
   viz_1_tab,
   viz_2_tab,
