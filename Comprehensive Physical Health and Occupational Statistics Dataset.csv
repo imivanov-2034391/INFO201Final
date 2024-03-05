@@ -1,375 +1,375 @@
-"","Person.ID","Gender","Age","Occupation","Sleep.Duration","Quality.of.Sleep","Physical.Activity.Level","Stress.Level","BMI.Category","Blood.Pressure","Heart.Rate","Daily.Steps","Sleep.Disorder","Corresponding.Occupation_job","H_MEAN","A_MEAN","above_med_hours","perc_daily_steps"
-"1",1,"Male",27,"Software Engineer",6.1,6,42,6,"Overweight","126/83",77,4200,"None","Software and Web Developers, Programmers, and Testers","60.07","124,940",FALSE,42
-"2",2,"Male",28,"Doctor",6.2,6,60,8,"Normal","125/80",75,10000,"None","Anesthesiologists","145.66","302,970",FALSE,100
-"3",3,"Male",28,"Doctor",6.2,6,60,8,"Normal","125/80",75,10000,"None","Anesthesiologists","145.66","302,970",FALSE,100
-"4",4,"Male",28,"Sales Representative",5.9,4,30,8,"Obese","140/90",85,3000,"Sleep Apnea","Miscellaneous Sales Representatives, Services","37.21","77,390",FALSE,30
-"5",5,"Male",28,"Sales Representative",5.9,4,30,8,"Obese","140/90",85,3000,"Sleep Apnea","Miscellaneous Sales Representatives, Services","37.21","77,390",FALSE,30
-"6",6,"Male",28,"Software Engineer",5.9,4,30,8,"Obese","140/90",85,3000,"Insomnia","Software and Web Developers, Programmers, and Testers","60.07","124,940",FALSE,30
-"7",7,"Male",29,"Teacher",6.3,6,40,7,"Obese","140/90",82,3500,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,35
-"8",8,"Male",29,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"9",9,"Male",29,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"10",10,"Male",29,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"11",11,"Male",29,"Doctor",6.1,6,30,8,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",FALSE,80
-"12",12,"Male",29,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"13",13,"Male",29,"Doctor",6.1,6,30,8,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",FALSE,80
-"14",14,"Male",29,"Doctor",6,6,30,8,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",FALSE,80
-"15",15,"Male",29,"Doctor",6,6,30,8,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",FALSE,80
-"16",16,"Male",29,"Doctor",6,6,30,8,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",FALSE,80
-"17",17,"Female",29,"Nurse",6.5,5,40,7,"Normal Weight","132/87",80,4000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,40
-"18",18,"Male",29,"Doctor",6,6,30,8,"Normal","120/80",70,8000,"Sleep Apnea","Anesthesiologists","145.66","302,970",FALSE,80
-"19",19,"Female",29,"Nurse",6.5,5,40,7,"Normal Weight","132/87",80,4000,"Insomnia","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,40
-"20",20,"Male",30,"Doctor",7.6,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"21",21,"Male",30,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"22",22,"Male",30,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"23",23,"Male",30,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"24",24,"Male",30,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"25",25,"Male",30,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"26",26,"Male",30,"Doctor",7.9,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"27",27,"Male",30,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"28",28,"Male",30,"Doctor",7.9,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"29",29,"Male",30,"Doctor",7.9,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"30",30,"Male",30,"Doctor",7.9,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"31",31,"Female",30,"Nurse",6.4,5,35,7,"Normal Weight","130/86",78,4100,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,41
-"32",32,"Female",30,"Nurse",6.4,5,35,7,"Normal Weight","130/86",78,4100,"Insomnia","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,41
-"33",33,"Female",31,"Nurse",7.9,8,75,4,"Normal Weight","117/76",69,6800,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,68
-"34",34,"Male",31,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"35",35,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"36",36,"Male",31,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"37",37,"Male",31,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"38",38,"Male",31,"Doctor",7.6,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"39",39,"Male",31,"Doctor",7.6,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"40",40,"Male",31,"Doctor",7.6,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"41",41,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"42",42,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"43",43,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"44",44,"Male",31,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"45",45,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"46",46,"Male",31,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"47",47,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"48",48,"Male",31,"Doctor",7.8,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"49",49,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"50",50,"Male",31,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"Sleep Apnea","Anesthesiologists","145.66","302,970",TRUE,80
-"51",51,"Male",32,"Engineer",7.5,8,45,3,"Normal","120/80",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"52",52,"Male",32,"Engineer",7.5,8,45,3,"Normal","120/80",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"53",53,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"54",54,"Male",32,"Doctor",7.6,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"55",55,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"56",56,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"57",57,"Male",32,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"58",58,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"59",59,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"60",60,"Male",32,"Doctor",7.7,7,75,6,"Normal","120/80",70,8000,"None","Anesthesiologists","145.66","302,970",TRUE,80
-"61",61,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"62",62,"Male",32,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"63",63,"Male",32,"Doctor",6.2,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"64",64,"Male",32,"Doctor",6.2,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"65",65,"Male",32,"Doctor",6.2,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"66",66,"Male",32,"Doctor",6.2,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"67",67,"Male",32,"Accountant",7.2,8,50,6,"Normal Weight","118/76",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"68",68,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"Insomnia","Anesthesiologists","145.66","302,970",FALSE,50
-"69",69,"Female",33,"Scientist",6.2,6,50,6,"Overweight","128/85",76,5500,"None","Agricultural and Food Scientists","39.06","81,250",FALSE,55
-"70",70,"Female",33,"Scientist",6.2,6,50,6,"Overweight","128/85",76,5500,"None","Agricultural and Food Scientists","39.06","81,250",FALSE,55
-"71",71,"Male",33,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"72",72,"Male",33,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"73",73,"Male",33,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"74",74,"Male",33,"Doctor",6.1,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"75",75,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"76",76,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"77",77,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"78",78,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"79",79,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"80",80,"Male",33,"Doctor",6,6,30,8,"Normal","125/80",72,5000,"None","Anesthesiologists","145.66","302,970",FALSE,50
-"81",81,"Female",34,"Scientist",5.8,4,32,8,"Overweight","131/86",81,5200,"Sleep Apnea","Agricultural and Food Scientists","39.06","81,250",FALSE,52
-"82",82,"Female",34,"Scientist",5.8,4,32,8,"Overweight","131/86",81,5200,"Sleep Apnea","Agricultural and Food Scientists","39.06","81,250",FALSE,52
-"83",83,"Male",35,"Teacher",6.7,7,40,5,"Overweight","128/84",70,5600,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,56
-"84",84,"Male",35,"Teacher",6.7,7,40,5,"Overweight","128/84",70,5600,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,56
-"85",85,"Male",35,"Software Engineer",7.5,8,60,5,"Normal Weight","120/80",70,8000,"None","Software and Web Developers, Programmers, and Testers","60.07","124,940",TRUE,80
-"86",86,"Female",35,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"87",87,"Male",35,"Engineer",7.2,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",FALSE,50
-"88",88,"Male",35,"Engineer",7.2,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",FALSE,50
-"89",89,"Male",35,"Engineer",7.3,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"90",90,"Male",35,"Engineer",7.3,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"91",91,"Male",35,"Engineer",7.3,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"92",92,"Male",35,"Engineer",7.3,8,60,4,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"93",93,"Male",35,"Software Engineer",7.5,8,60,5,"Normal Weight","120/80",70,8000,"None","Software and Web Developers, Programmers, and Testers","60.07","124,940",TRUE,80
-"94",94,"Male",35,"Lawyer",7.4,7,60,5,"Obese","135/88",84,3300,"Sleep Apnea","Lawyers","78.74","163,770",TRUE,33
-"95",95,"Female",36,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,70
-"96",96,"Female",36,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"97",97,"Female",36,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"98",98,"Female",36,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"99",99,"Female",36,"Teacher",7.1,8,60,4,"Normal","115/75",68,7000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"100",100,"Female",36,"Teacher",7.1,8,60,4,"Normal","115/75",68,7000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"101",101,"Female",36,"Teacher",7.2,8,60,4,"Normal","115/75",68,7000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"102",102,"Female",36,"Teacher",7.2,8,60,4,"Normal","115/75",68,7000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"103",103,"Female",36,"Teacher",7.2,8,60,4,"Normal","115/75",68,7000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"104",104,"Male",36,"Teacher",6.6,5,35,7,"Overweight","129/84",74,4800,"Sleep Apnea","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,48
-"105",105,"Female",36,"Teacher",7.2,8,60,4,"Normal","115/75",68,7000,"Sleep Apnea","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,70
-"106",106,"Male",36,"Teacher",6.6,5,35,7,"Overweight","129/84",74,4800,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,48
-"107",107,"Female",37,"Nurse",6.1,6,42,6,"Overweight","126/83",77,4200,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,42
-"108",108,"Male",37,"Engineer",7.8,8,70,4,"Normal Weight","120/80",68,7000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,70
-"109",109,"Male",37,"Engineer",7.8,8,70,4,"Normal Weight","120/80",68,7000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,70
-"110",110,"Male",37,"Lawyer",7.4,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"111",111,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"112",112,"Male",37,"Lawyer",7.4,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"113",113,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"114",114,"Male",37,"Lawyer",7.4,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"115",115,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"116",116,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"117",117,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"118",118,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"119",119,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"120",120,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"121",121,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"122",122,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"123",123,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"124",124,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"125",125,"Female",37,"Accountant",7.2,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"126",126,"Female",37,"Nurse",7.5,8,60,4,"Normal Weight","120/80",70,8000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,80
-"127",127,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"128",128,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"129",129,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"130",130,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"131",131,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"132",132,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"133",133,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"134",134,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"135",135,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"136",136,"Male",38,"Lawyer",7.3,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"137",137,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"138",138,"Male",38,"Lawyer",7.1,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"139",139,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"140",140,"Male",38,"Lawyer",7.1,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"141",141,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"142",142,"Male",38,"Lawyer",7.1,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"143",143,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"144",144,"Female",38,"Accountant",7.1,8,60,4,"Normal","115/75",68,7000,"None","Accountants and Auditors","41.70","86,740",FALSE,70
-"145",145,"Male",38,"Lawyer",7.1,8,60,5,"Normal","130/85",68,8000,"Sleep Apnea","Lawyers","78.74","163,770",FALSE,80
-"146",146,"Female",38,"Lawyer",7.4,7,60,5,"Obese","135/88",84,3300,"Sleep Apnea","Lawyers","78.74","163,770",TRUE,33
-"147",147,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"Insomnia","Lawyers","78.74","163,770",FALSE,80
-"148",148,"Male",39,"Engineer",6.5,5,40,7,"Overweight","132/87",80,4000,"Insomnia","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",FALSE,40
-"149",149,"Female",39,"Lawyer",6.9,7,50,6,"Normal Weight","128/85",75,5500,"None","Lawyers","78.74","163,770",FALSE,55
-"150",150,"Female",39,"Accountant",8,9,80,3,"Normal Weight","115/78",67,7500,"None","Accountants and Auditors","41.70","86,740",TRUE,75
-"151",151,"Female",39,"Accountant",8,9,80,3,"Normal Weight","115/78",67,7500,"None","Accountants and Auditors","41.70","86,740",TRUE,75
-"152",152,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"153",153,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"154",154,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"155",155,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"156",156,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"157",157,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"158",158,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"159",159,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"160",160,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"161",161,"Male",39,"Lawyer",7.2,8,60,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",FALSE,80
-"162",162,"Female",40,"Accountant",7.2,8,55,6,"Normal Weight","119/77",73,7300,"None","Accountants and Auditors","41.70","86,740",FALSE,73
-"163",163,"Female",40,"Accountant",7.2,8,55,6,"Normal Weight","119/77",73,7300,"None","Accountants and Auditors","41.70","86,740",FALSE,73
-"164",164,"Male",40,"Lawyer",7.9,8,90,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"165",165,"Male",40,"Lawyer",7.9,8,90,5,"Normal","130/85",68,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"166",166,"Male",41,"Lawyer",7.6,8,90,5,"Normal","130/85",70,8000,"Insomnia","Lawyers","78.74","163,770",TRUE,80
-"167",167,"Male",41,"Engineer",7.3,8,70,6,"Normal Weight","121/79",72,6200,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,62
-"168",168,"Male",41,"Lawyer",7.1,7,55,6,"Overweight","125/82",72,6000,"None","Lawyers","78.74","163,770",FALSE,60
-"169",169,"Male",41,"Lawyer",7.1,7,55,6,"Overweight","125/82",72,6000,"None","Lawyers","78.74","163,770",FALSE,60
-"170",170,"Male",41,"Lawyer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"171",171,"Male",41,"Lawyer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"172",172,"Male",41,"Lawyer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"173",173,"Male",41,"Lawyer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"174",174,"Male",41,"Lawyer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"175",175,"Male",41,"Lawyer",7.6,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"176",176,"Male",41,"Lawyer",7.6,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"177",177,"Male",41,"Lawyer",7.6,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"178",178,"Male",42,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"179",179,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"180",180,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"181",181,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"182",182,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"183",183,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"184",184,"Male",42,"Lawyer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Lawyers","78.74","163,770",TRUE,80
-"185",185,"Female",42,"Teacher",6.8,6,45,7,"Overweight","130/85",78,5000,"Sleep Apnea","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,50
-"186",186,"Female",42,"Teacher",6.8,6,45,7,"Overweight","130/85",78,5000,"Sleep Apnea","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,50
-"187",187,"Female",43,"Teacher",6.7,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"188",188,"Male",43,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"189",189,"Female",43,"Teacher",6.7,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"190",190,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"191",191,"Female",43,"Teacher",6.7,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"192",192,"Male",43,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"193",193,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"194",194,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"195",195,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"196",196,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"197",197,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"198",198,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"199",199,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"200",200,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"201",201,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"202",202,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"Insomnia","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"203",203,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"Insomnia","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"204",204,"Male",43,"Engineer",6.9,6,47,7,"Normal Weight","117/76",69,6800,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",FALSE,68
-"205",205,"Male",43,"Engineer",7.6,8,75,4,"Overweight","122/80",68,6800,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,68
-"206",206,"Male",43,"Engineer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"207",207,"Male",43,"Engineer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"208",208,"Male",43,"Engineer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"209",209,"Male",43,"Engineer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"210",210,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"211",211,"Male",43,"Engineer",7.7,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"212",212,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"213",213,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"214",214,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"215",215,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"216",216,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"217",217,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"218",218,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"219",219,"Male",43,"Engineer",7.8,8,90,5,"Normal","130/85",70,8000,"Sleep Apnea","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,80
-"220",220,"Male",43,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"Sleep Apnea","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"221",221,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"222",222,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"223",223,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"224",224,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"225",225,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"226",226,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"227",227,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"228",228,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"229",229,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"230",230,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"231",231,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"232",232,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"233",233,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"234",234,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"235",235,"Female",44,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"236",236,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"237",237,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"238",238,"Female",44,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"239",239,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"240",240,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"241",241,"Female",44,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"242",242,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"243",243,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"244",244,"Female",44,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"245",245,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"246",246,"Female",44,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"247",247,"Male",44,"Salesperson",6.3,6,45,7,"Overweight","130/85",72,6000,"Insomnia","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"248",248,"Male",44,"Engineer",6.8,7,45,7,"Overweight","130/85",78,5000,"Insomnia","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",FALSE,50
-"249",249,"Male",44,"Salesperson",6.4,6,45,7,"Overweight","130/85",72,6000,"None","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"250",250,"Male",44,"Salesperson",6.5,6,45,7,"Overweight","130/85",72,6000,"None","Counter and Rental Clerks and Parts Salespersons","18.89","39,290",FALSE,60
-"251",251,"Female",45,"Teacher",6.8,7,30,6,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"252",252,"Female",45,"Teacher",6.8,7,30,6,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"253",253,"Female",45,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"254",254,"Female",45,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"255",255,"Female",45,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"256",256,"Female",45,"Teacher",6.5,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"257",257,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"258",258,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"259",259,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"260",260,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"261",261,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"Insomnia","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"262",262,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"263",263,"Female",45,"Teacher",6.6,7,45,4,"Overweight","135/90",65,6000,"None","Agricultural Sciences Teachers, Postsecondary","*","96,650",FALSE,60
-"264",264,"Female",45,"Manager",6.9,7,55,5,"Overweight","125/82",75,5500,"None","Administrative Services and Facilities Managers","54.06","112,440",FALSE,55
-"265",265,"Male",48,"Doctor",7.3,7,65,5,"Obese","142/92",83,3500,"Insomnia","Anesthesiologists","145.66","302,970",TRUE,35
-"266",266,"Female",48,"Nurse",5.9,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"267",267,"Male",48,"Doctor",7.3,7,65,5,"Obese","142/92",83,3500,"Insomnia","Anesthesiologists","145.66","302,970",TRUE,35
-"268",268,"Female",49,"Nurse",6.2,6,90,8,"Overweight","140/95",75,10000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"269",269,"Female",49,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"270",270,"Female",49,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"271",271,"Female",49,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"272",272,"Female",49,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"273",273,"Female",49,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"274",274,"Female",49,"Nurse",6.2,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"275",275,"Female",49,"Nurse",6.2,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"276",276,"Female",49,"Nurse",6.2,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"277",277,"Male",49,"Doctor",8.1,9,85,3,"Obese","139/91",86,3700,"Sleep Apnea","Anesthesiologists","145.66","302,970",TRUE,37
-"278",278,"Male",49,"Doctor",8.1,9,85,3,"Obese","139/91",86,3700,"Sleep Apnea","Anesthesiologists","145.66","302,970",TRUE,37
-"279",279,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Insomnia","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"280",280,"Female",50,"Engineer",8.3,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"281",281,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"282",282,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"283",283,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"284",284,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"285",285,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"286",286,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"287",287,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"288",288,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"289",289,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"290",290,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"291",291,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"292",292,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"293",293,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"294",294,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"295",295,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"296",296,"Female",50,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"297",297,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"298",298,"Female",50,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"299",299,"Female",51,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"300",300,"Female",51,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"301",301,"Female",51,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"302",302,"Female",51,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"303",303,"Female",51,"Nurse",7.1,7,55,6,"Normal Weight","125/82",72,6000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,60
-"304",304,"Female",51,"Nurse",6,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"305",305,"Female",51,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"306",306,"Female",51,"Nurse",6.1,6,90,8,"Overweight","140/95",75,10000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",FALSE,100
-"307",307,"Female",52,"Accountant",6.5,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"308",308,"Female",52,"Accountant",6.5,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"309",309,"Female",52,"Accountant",6.6,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"310",310,"Female",52,"Accountant",6.6,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"311",311,"Female",52,"Accountant",6.6,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"312",312,"Female",52,"Accountant",6.6,7,45,7,"Overweight","130/85",72,6000,"Insomnia","Accountants and Auditors","41.70","86,740",FALSE,60
-"313",313,"Female",52,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"314",314,"Female",52,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"315",315,"Female",52,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"316",316,"Female",53,"Engineer",8.3,9,30,3,"Normal","125/80",65,5000,"Insomnia","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"317",317,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"318",318,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"319",319,"Female",53,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"320",320,"Female",53,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"321",321,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"322",322,"Female",53,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"323",323,"Female",53,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"324",324,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"325",325,"Female",53,"Engineer",8.3,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"326",326,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"327",327,"Female",53,"Engineer",8.3,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"328",328,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"329",329,"Female",53,"Engineer",8.3,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"330",330,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"331",331,"Female",53,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"332",332,"Female",53,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"333",333,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"334",334,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"335",335,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"336",336,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"337",337,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"338",338,"Female",54,"Engineer",8.4,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"339",339,"Female",54,"Engineer",8.5,9,30,3,"Normal","125/80",65,5000,"None","Aerospace Engineering and Operations Technologists and Technicians","37.05","77,060",TRUE,50
-"340",340,"Female",55,"Nurse",8.1,9,75,4,"Overweight","140/95",72,5000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,50
-"341",341,"Female",55,"Nurse",8.1,9,75,4,"Overweight","140/95",72,5000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,50
-"342",342,"Female",56,"Doctor",8.2,9,90,3,"Normal Weight","118/75",65,10000,"None","Anesthesiologists","145.66","302,970",TRUE,100
-"343",343,"Female",56,"Doctor",8.2,9,90,3,"Normal Weight","118/75",65,10000,"None","Anesthesiologists","145.66","302,970",TRUE,100
-"344",344,"Female",57,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"345",345,"Female",57,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"346",346,"Female",57,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"347",347,"Female",57,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"348",348,"Female",57,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"349",349,"Female",57,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"350",350,"Female",57,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"351",351,"Female",57,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"352",352,"Female",57,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"353",353,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"354",354,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"355",355,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"356",356,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"357",357,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"358",358,"Female",58,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"359",359,"Female",59,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"360",360,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"None","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"361",361,"Female",59,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"362",362,"Female",59,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"363",363,"Female",59,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"364",364,"Female",59,"Nurse",8.2,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"365",365,"Female",59,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"366",366,"Female",59,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"367",367,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"368",368,"Female",59,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"369",369,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"370",370,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"371",371,"Female",59,"Nurse",8,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"372",372,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"373",373,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
-"374",374,"Female",59,"Nurse",8.1,9,75,3,"Overweight","140/95",68,7000,"Sleep Apnea","Farmworkers and Laborers, Crop, Nursery, and Greenhouse","16.49","34,300",TRUE,70
+,Person.ID,Gender,Age,Occupation,Sleep.Duration,Quality.of.Sleep,Physical.Activity.Level,Stress.Level,BMI.Category,Blood.Pressure,Heart.Rate,Daily.Steps,Sleep.Disorder,Corresponding.Occupation_job,H_MEAN_C,A_MEAN_C,above_med_hours,perc_daily_steps,A_MEAN,H_MEAN
+1,1,Male,27,Software Engineer,6.1,6,42,6,Overweight,126/83,77,4200,None,"Software and Web Developers, Programmers, and Testers",60.07,"124,940",FALSE,42,124940,60.07
+2,2,Male,28,Doctor,6.2,6,60,8,Normal,125/80,75,10000,None,Anesthesiologists,145.66,"302,970",FALSE,100,302970,145.66
+3,3,Male,28,Doctor,6.2,6,60,8,Normal,125/80,75,10000,None,Anesthesiologists,145.66,"302,970",FALSE,100,302970,145.66
+4,4,Male,28,Sales Representative,5.9,4,30,8,Obese,140/90,85,3000,Sleep Apnea,"Miscellaneous Sales Representatives, Services",37.21,"77,390",FALSE,30,77390,37.21
+5,5,Male,28,Sales Representative,5.9,4,30,8,Obese,140/90,85,3000,Sleep Apnea,"Miscellaneous Sales Representatives, Services",37.21,"77,390",FALSE,30,77390,37.21
+6,6,Male,28,Software Engineer,5.9,4,30,8,Obese,140/90,85,3000,Insomnia,"Software and Web Developers, Programmers, and Testers",60.07,"124,940",FALSE,30,124940,60.07
+7,7,Male,29,Teacher,6.3,6,40,7,Obese,140/90,82,3500,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,35,96650,NA
+8,8,Male,29,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+9,9,Male,29,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+10,10,Male,29,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+11,11,Male,29,Doctor,6.1,6,30,8,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+12,12,Male,29,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+13,13,Male,29,Doctor,6.1,6,30,8,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+14,14,Male,29,Doctor,6,6,30,8,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+15,15,Male,29,Doctor,6,6,30,8,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+16,16,Male,29,Doctor,6,6,30,8,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+17,17,Female,29,Nurse,6.5,5,40,7,Normal Weight,132/87,80,4000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,40,34300,16.49
+18,18,Male,29,Doctor,6,6,30,8,Normal,120/80,70,8000,Sleep Apnea,Anesthesiologists,145.66,"302,970",FALSE,80,302970,145.66
+19,19,Female,29,Nurse,6.5,5,40,7,Normal Weight,132/87,80,4000,Insomnia,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,40,34300,16.49
+20,20,Male,30,Doctor,7.6,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+21,21,Male,30,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+22,22,Male,30,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+23,23,Male,30,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+24,24,Male,30,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+25,25,Male,30,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+26,26,Male,30,Doctor,7.9,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+27,27,Male,30,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+28,28,Male,30,Doctor,7.9,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+29,29,Male,30,Doctor,7.9,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+30,30,Male,30,Doctor,7.9,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+31,31,Female,30,Nurse,6.4,5,35,7,Normal Weight,130/86,78,4100,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,41,34300,16.49
+32,32,Female,30,Nurse,6.4,5,35,7,Normal Weight,130/86,78,4100,Insomnia,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,41,34300,16.49
+33,33,Female,31,Nurse,7.9,8,75,4,Normal Weight,117/76,69,6800,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,68,34300,16.49
+34,34,Male,31,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+35,35,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+36,36,Male,31,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+37,37,Male,31,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+38,38,Male,31,Doctor,7.6,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+39,39,Male,31,Doctor,7.6,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+40,40,Male,31,Doctor,7.6,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+41,41,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+42,42,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+43,43,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+44,44,Male,31,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+45,45,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+46,46,Male,31,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+47,47,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+48,48,Male,31,Doctor,7.8,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+49,49,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+50,50,Male,31,Doctor,7.7,7,75,6,Normal,120/80,70,8000,Sleep Apnea,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+51,51,Male,32,Engineer,7.5,8,45,3,Normal,120/80,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+52,52,Male,32,Engineer,7.5,8,45,3,Normal,120/80,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+53,53,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+54,54,Male,32,Doctor,7.6,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+55,55,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+56,56,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+57,57,Male,32,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+58,58,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+59,59,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+60,60,Male,32,Doctor,7.7,7,75,6,Normal,120/80,70,8000,None,Anesthesiologists,145.66,"302,970",TRUE,80,302970,145.66
+61,61,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+62,62,Male,32,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+63,63,Male,32,Doctor,6.2,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+64,64,Male,32,Doctor,6.2,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+65,65,Male,32,Doctor,6.2,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+66,66,Male,32,Doctor,6.2,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+67,67,Male,32,Accountant,7.2,8,50,6,Normal Weight,118/76,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+68,68,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,Insomnia,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+69,69,Female,33,Scientist,6.2,6,50,6,Overweight,128/85,76,5500,None,Agricultural and Food Scientists,39.06,"81,250",FALSE,55,81250,39.06
+70,70,Female,33,Scientist,6.2,6,50,6,Overweight,128/85,76,5500,None,Agricultural and Food Scientists,39.06,"81,250",FALSE,55,81250,39.06
+71,71,Male,33,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+72,72,Male,33,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+73,73,Male,33,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+74,74,Male,33,Doctor,6.1,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+75,75,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+76,76,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+77,77,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+78,78,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+79,79,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+80,80,Male,33,Doctor,6,6,30,8,Normal,125/80,72,5000,None,Anesthesiologists,145.66,"302,970",FALSE,50,302970,145.66
+81,81,Female,34,Scientist,5.8,4,32,8,Overweight,131/86,81,5200,Sleep Apnea,Agricultural and Food Scientists,39.06,"81,250",FALSE,52,81250,39.06
+82,82,Female,34,Scientist,5.8,4,32,8,Overweight,131/86,81,5200,Sleep Apnea,Agricultural and Food Scientists,39.06,"81,250",FALSE,52,81250,39.06
+83,83,Male,35,Teacher,6.7,7,40,5,Overweight,128/84,70,5600,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,56,96650,NA
+84,84,Male,35,Teacher,6.7,7,40,5,Overweight,128/84,70,5600,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,56,96650,NA
+85,85,Male,35,Software Engineer,7.5,8,60,5,Normal Weight,120/80,70,8000,None,"Software and Web Developers, Programmers, and Testers",60.07,"124,940",TRUE,80,124940,60.07
+86,86,Female,35,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+87,87,Male,35,Engineer,7.2,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",FALSE,50,77060,37.05
+88,88,Male,35,Engineer,7.2,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",FALSE,50,77060,37.05
+89,89,Male,35,Engineer,7.3,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+90,90,Male,35,Engineer,7.3,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+91,91,Male,35,Engineer,7.3,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+92,92,Male,35,Engineer,7.3,8,60,4,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+93,93,Male,35,Software Engineer,7.5,8,60,5,Normal Weight,120/80,70,8000,None,"Software and Web Developers, Programmers, and Testers",60.07,"124,940",TRUE,80,124940,60.07
+94,94,Male,35,Lawyer,7.4,7,60,5,Obese,135/88,84,3300,Sleep Apnea,Lawyers,78.74,"163,770",TRUE,33,163770,78.74
+95,95,Female,36,Accountant,7.2,8,60,4,Normal,115/75,68,7000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+96,96,Female,36,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+97,97,Female,36,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+98,98,Female,36,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+99,99,Female,36,Teacher,7.1,8,60,4,Normal,115/75,68,7000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+100,100,Female,36,Teacher,7.1,8,60,4,Normal,115/75,68,7000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+101,101,Female,36,Teacher,7.2,8,60,4,Normal,115/75,68,7000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+102,102,Female,36,Teacher,7.2,8,60,4,Normal,115/75,68,7000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+103,103,Female,36,Teacher,7.2,8,60,4,Normal,115/75,68,7000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+104,104,Male,36,Teacher,6.6,5,35,7,Overweight,129/84,74,4800,Sleep Apnea,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,48,96650,NA
+105,105,Female,36,Teacher,7.2,8,60,4,Normal,115/75,68,7000,Sleep Apnea,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,70,96650,NA
+106,106,Male,36,Teacher,6.6,5,35,7,Overweight,129/84,74,4800,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,48,96650,NA
+107,107,Female,37,Nurse,6.1,6,42,6,Overweight,126/83,77,4200,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,42,34300,16.49
+108,108,Male,37,Engineer,7.8,8,70,4,Normal Weight,120/80,68,7000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,70,77060,37.05
+109,109,Male,37,Engineer,7.8,8,70,4,Normal Weight,120/80,68,7000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,70,77060,37.05
+110,110,Male,37,Lawyer,7.4,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+111,111,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+112,112,Male,37,Lawyer,7.4,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+113,113,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+114,114,Male,37,Lawyer,7.4,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+115,115,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+116,116,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+117,117,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+118,118,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+119,119,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+120,120,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+121,121,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+122,122,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+123,123,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+124,124,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+125,125,Female,37,Accountant,7.2,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+126,126,Female,37,Nurse,7.5,8,60,4,Normal Weight,120/80,70,8000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,80,34300,16.49
+127,127,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+128,128,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+129,129,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+130,130,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+131,131,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+132,132,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+133,133,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+134,134,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+135,135,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+136,136,Male,38,Lawyer,7.3,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+137,137,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+138,138,Male,38,Lawyer,7.1,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+139,139,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+140,140,Male,38,Lawyer,7.1,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+141,141,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+142,142,Male,38,Lawyer,7.1,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+143,143,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+144,144,Female,38,Accountant,7.1,8,60,4,Normal,115/75,68,7000,None,Accountants and Auditors,41.7,"86,740",FALSE,70,86740,41.7
+145,145,Male,38,Lawyer,7.1,8,60,5,Normal,130/85,68,8000,Sleep Apnea,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+146,146,Female,38,Lawyer,7.4,7,60,5,Obese,135/88,84,3300,Sleep Apnea,Lawyers,78.74,"163,770",TRUE,33,163770,78.74
+147,147,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,Insomnia,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+148,148,Male,39,Engineer,6.5,5,40,7,Overweight,132/87,80,4000,Insomnia,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",FALSE,40,77060,37.05
+149,149,Female,39,Lawyer,6.9,7,50,6,Normal Weight,128/85,75,5500,None,Lawyers,78.74,"163,770",FALSE,55,163770,78.74
+150,150,Female,39,Accountant,8,9,80,3,Normal Weight,115/78,67,7500,None,Accountants and Auditors,41.7,"86,740",TRUE,75,86740,41.7
+151,151,Female,39,Accountant,8,9,80,3,Normal Weight,115/78,67,7500,None,Accountants and Auditors,41.7,"86,740",TRUE,75,86740,41.7
+152,152,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+153,153,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+154,154,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+155,155,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+156,156,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+157,157,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+158,158,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+159,159,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+160,160,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+161,161,Male,39,Lawyer,7.2,8,60,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",FALSE,80,163770,78.74
+162,162,Female,40,Accountant,7.2,8,55,6,Normal Weight,119/77,73,7300,None,Accountants and Auditors,41.7,"86,740",FALSE,73,86740,41.7
+163,163,Female,40,Accountant,7.2,8,55,6,Normal Weight,119/77,73,7300,None,Accountants and Auditors,41.7,"86,740",FALSE,73,86740,41.7
+164,164,Male,40,Lawyer,7.9,8,90,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+165,165,Male,40,Lawyer,7.9,8,90,5,Normal,130/85,68,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+166,166,Male,41,Lawyer,7.6,8,90,5,Normal,130/85,70,8000,Insomnia,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+167,167,Male,41,Engineer,7.3,8,70,6,Normal Weight,121/79,72,6200,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,62,77060,37.05
+168,168,Male,41,Lawyer,7.1,7,55,6,Overweight,125/82,72,6000,None,Lawyers,78.74,"163,770",FALSE,60,163770,78.74
+169,169,Male,41,Lawyer,7.1,7,55,6,Overweight,125/82,72,6000,None,Lawyers,78.74,"163,770",FALSE,60,163770,78.74
+170,170,Male,41,Lawyer,7.7,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+171,171,Male,41,Lawyer,7.7,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+172,172,Male,41,Lawyer,7.7,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+173,173,Male,41,Lawyer,7.7,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+174,174,Male,41,Lawyer,7.7,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+175,175,Male,41,Lawyer,7.6,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+176,176,Male,41,Lawyer,7.6,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+177,177,Male,41,Lawyer,7.6,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+178,178,Male,42,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+179,179,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+180,180,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+181,181,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+182,182,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+183,183,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+184,184,Male,42,Lawyer,7.8,8,90,5,Normal,130/85,70,8000,None,Lawyers,78.74,"163,770",TRUE,80,163770,78.74
+185,185,Female,42,Teacher,6.8,6,45,7,Overweight,130/85,78,5000,Sleep Apnea,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,50,96650,NA
+186,186,Female,42,Teacher,6.8,6,45,7,Overweight,130/85,78,5000,Sleep Apnea,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,50,96650,NA
+187,187,Female,43,Teacher,6.7,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+188,188,Male,43,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+189,189,Female,43,Teacher,6.7,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+190,190,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+191,191,Female,43,Teacher,6.7,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+192,192,Male,43,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+193,193,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+194,194,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+195,195,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+196,196,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+197,197,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+198,198,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+199,199,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+200,200,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+201,201,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+202,202,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,Insomnia,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+203,203,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,Insomnia,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+204,204,Male,43,Engineer,6.9,6,47,7,Normal Weight,117/76,69,6800,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",FALSE,68,77060,37.05
+205,205,Male,43,Engineer,7.6,8,75,4,Overweight,122/80,68,6800,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,68,77060,37.05
+206,206,Male,43,Engineer,7.7,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+207,207,Male,43,Engineer,7.7,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+208,208,Male,43,Engineer,7.7,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+209,209,Male,43,Engineer,7.7,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+210,210,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+211,211,Male,43,Engineer,7.7,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+212,212,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+213,213,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+214,214,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+215,215,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+216,216,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+217,217,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+218,218,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+219,219,Male,43,Engineer,7.8,8,90,5,Normal,130/85,70,8000,Sleep Apnea,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,80,77060,37.05
+220,220,Male,43,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,Sleep Apnea,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+221,221,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+222,222,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+223,223,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+224,224,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+225,225,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+226,226,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+227,227,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+228,228,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+229,229,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+230,230,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+231,231,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+232,232,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+233,233,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+234,234,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+235,235,Female,44,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+236,236,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+237,237,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+238,238,Female,44,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+239,239,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+240,240,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+241,241,Female,44,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+242,242,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+243,243,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+244,244,Female,44,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+245,245,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+246,246,Female,44,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+247,247,Male,44,Salesperson,6.3,6,45,7,Overweight,130/85,72,6000,Insomnia,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+248,248,Male,44,Engineer,6.8,7,45,7,Overweight,130/85,78,5000,Insomnia,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",FALSE,50,77060,37.05
+249,249,Male,44,Salesperson,6.4,6,45,7,Overweight,130/85,72,6000,None,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+250,250,Male,44,Salesperson,6.5,6,45,7,Overweight,130/85,72,6000,None,Counter and Rental Clerks and Parts Salespersons,18.89,"39,290",FALSE,60,39290,18.89
+251,251,Female,45,Teacher,6.8,7,30,6,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+252,252,Female,45,Teacher,6.8,7,30,6,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+253,253,Female,45,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+254,254,Female,45,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+255,255,Female,45,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+256,256,Female,45,Teacher,6.5,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+257,257,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+258,258,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+259,259,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+260,260,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+261,261,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,Insomnia,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+262,262,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+263,263,Female,45,Teacher,6.6,7,45,4,Overweight,135/90,65,6000,None,"Agricultural Sciences Teachers, Postsecondary",*,"96,650",FALSE,60,96650,NA
+264,264,Female,45,Manager,6.9,7,55,5,Overweight,125/82,75,5500,None,Administrative Services and Facilities Managers,54.06,"112,440",FALSE,55,112440,54.06
+265,265,Male,48,Doctor,7.3,7,65,5,Obese,142/92,83,3500,Insomnia,Anesthesiologists,145.66,"302,970",TRUE,35,302970,145.66
+266,266,Female,48,Nurse,5.9,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+267,267,Male,48,Doctor,7.3,7,65,5,Obese,142/92,83,3500,Insomnia,Anesthesiologists,145.66,"302,970",TRUE,35,302970,145.66
+268,268,Female,49,Nurse,6.2,6,90,8,Overweight,140/95,75,10000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+269,269,Female,49,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+270,270,Female,49,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+271,271,Female,49,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+272,272,Female,49,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+273,273,Female,49,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+274,274,Female,49,Nurse,6.2,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+275,275,Female,49,Nurse,6.2,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+276,276,Female,49,Nurse,6.2,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+277,277,Male,49,Doctor,8.1,9,85,3,Obese,139/91,86,3700,Sleep Apnea,Anesthesiologists,145.66,"302,970",TRUE,37,302970,145.66
+278,278,Male,49,Doctor,8.1,9,85,3,Obese,139/91,86,3700,Sleep Apnea,Anesthesiologists,145.66,"302,970",TRUE,37,302970,145.66
+279,279,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Insomnia,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+280,280,Female,50,Engineer,8.3,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+281,281,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+282,282,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+283,283,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+284,284,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+285,285,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+286,286,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+287,287,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+288,288,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+289,289,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+290,290,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+291,291,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+292,292,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+293,293,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+294,294,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+295,295,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+296,296,Female,50,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+297,297,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+298,298,Female,50,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+299,299,Female,51,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+300,300,Female,51,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+301,301,Female,51,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+302,302,Female,51,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+303,303,Female,51,Nurse,7.1,7,55,6,Normal Weight,125/82,72,6000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,60,34300,16.49
+304,304,Female,51,Nurse,6,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+305,305,Female,51,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+306,306,Female,51,Nurse,6.1,6,90,8,Overweight,140/95,75,10000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",FALSE,100,34300,16.49
+307,307,Female,52,Accountant,6.5,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+308,308,Female,52,Accountant,6.5,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+309,309,Female,52,Accountant,6.6,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+310,310,Female,52,Accountant,6.6,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+311,311,Female,52,Accountant,6.6,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+312,312,Female,52,Accountant,6.6,7,45,7,Overweight,130/85,72,6000,Insomnia,Accountants and Auditors,41.7,"86,740",FALSE,60,86740,41.7
+313,313,Female,52,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+314,314,Female,52,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+315,315,Female,52,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+316,316,Female,53,Engineer,8.3,9,30,3,Normal,125/80,65,5000,Insomnia,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+317,317,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+318,318,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+319,319,Female,53,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+320,320,Female,53,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+321,321,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+322,322,Female,53,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+323,323,Female,53,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+324,324,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+325,325,Female,53,Engineer,8.3,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+326,326,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+327,327,Female,53,Engineer,8.3,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+328,328,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+329,329,Female,53,Engineer,8.3,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+330,330,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+331,331,Female,53,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+332,332,Female,53,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+333,333,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+334,334,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+335,335,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+336,336,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+337,337,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+338,338,Female,54,Engineer,8.4,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+339,339,Female,54,Engineer,8.5,9,30,3,Normal,125/80,65,5000,None,Aerospace Engineering and Operations Technologists and Technicians,37.05,"77,060",TRUE,50,77060,37.05
+340,340,Female,55,Nurse,8.1,9,75,4,Overweight,140/95,72,5000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,50,34300,16.49
+341,341,Female,55,Nurse,8.1,9,75,4,Overweight,140/95,72,5000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,50,34300,16.49
+342,342,Female,56,Doctor,8.2,9,90,3,Normal Weight,118/75,65,10000,None,Anesthesiologists,145.66,"302,970",TRUE,100,302970,145.66
+343,343,Female,56,Doctor,8.2,9,90,3,Normal Weight,118/75,65,10000,None,Anesthesiologists,145.66,"302,970",TRUE,100,302970,145.66
+344,344,Female,57,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+345,345,Female,57,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+346,346,Female,57,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+347,347,Female,57,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+348,348,Female,57,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+349,349,Female,57,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+350,350,Female,57,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+351,351,Female,57,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+352,352,Female,57,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+353,353,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+354,354,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+355,355,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+356,356,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+357,357,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+358,358,Female,58,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+359,359,Female,59,Nurse,8,9,75,3,Overweight,140/95,68,7000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+360,360,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,None,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+361,361,Female,59,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+362,362,Female,59,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+363,363,Female,59,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+364,364,Female,59,Nurse,8.2,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+365,365,Female,59,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+366,366,Female,59,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+367,367,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+368,368,Female,59,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+369,369,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+370,370,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+371,371,Female,59,Nurse,8,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+372,372,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+373,373,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49
+374,374,Female,59,Nurse,8.1,9,75,3,Overweight,140/95,68,7000,Sleep Apnea,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",16.49,"34,300",TRUE,70,34300,16.49

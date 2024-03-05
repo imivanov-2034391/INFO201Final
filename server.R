@@ -13,7 +13,6 @@ library(shiny)
 # Load data
 combined_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
 
-
 server <- function(input, output){
   
   
@@ -71,12 +70,38 @@ server <- function(input, output){
   
   
   
-  # Interactive Page 3
+  # Interactive Page 3 - Salary and Health
   
   output$sal_phy_plot <- renderPlotly({
+
+    health_df <- combined_df %>% arrange(A_MEAN)
+
+    if (input$viz_3inputid == "Heart Rate") {
+      my_plot3 <- plot_ly(data = health_df, x = ~Heart.Rate, y = ~A_MEAN, type = 'scatter',
+                          marker = list(color = '#345')) %>%
+        layout(title = paste("Heart Rate"),
+               xaxis = list(title = "Heart Rate"),
+               yaxis = list(title = "Average Annual Salary"))  
+    } else if (input$viz_3inputid == "Blood Pressure") {
+      my_plot3 <- plot_ly(data = health_df, x = ~A_MEAN, y = ~Blood.Pressure, type = 'scatter', 
+                          marker = list(color = '#EF553B')) %>%
+        layout(title = paste("Blood Pressure"),
+               xaxis = list(title = "Average Annual Salary"),      
+               yaxis = list(title = "Blood Pressure"))
+    } else if (input$viz_3inputid == "Daily Steps") {
+      my_plot3 <- plot_ly(data = health_df, x = ~Daily.Steps, y = ~A_MEAN, type = 'scatter', 
+                          marker = list(color = '#32B')) %>%
+        layout(title = paste("Daily Steps"),
+               xaxis = list(title = "Daily Steps"),
+               yaxis = list(title = "Average Annual Salary"))
+    } else if (input$viz_3inputid == "Physical Activity Level") {
+      my_plot3 <- plot_ly(data = health_df, x = ~Physical.Activity.Level, y = ~A_MEAN, type = 'scatter', 
+                          marker = list(color = '#53BBBC')) %>%
+        layout(title = paste("Physical Activity Level"),
+               xaxis = list(title = "Physical Activity Level"),
+               yaxis = list(title = "Average Annual Salary"))
+    }
+
   })
-  
-  
-  
-  
+
 }

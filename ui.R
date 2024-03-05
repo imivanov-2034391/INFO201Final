@@ -168,22 +168,30 @@ viz_2_tab <- tabPanel("Sleep Quality among Occupation",
 ## VIZ 3 TAB INFO
 
 viz_3_sidebar <- sidebarPanel(
-  h3("Options"),
-  #TODO: Put inputs for modifying graph here
+  h3("Choose a Health Variable"),
+  radioButtons(
+    inputId = "viz_3inputid",
+    label = "Select plot type:",
+    choices = c("Heart Rate", "Blood Pressure", "Daily Steps", "Physical Activity Level"),
+    selected = "Heart Rate"
+  )
 )
 
+
 viz_3_main_panel <- mainPanel(
-  h2("3. Potential correlation between salary and physical health"),
+  h2("3. Potential Correlation between Salary and Physical Health"),
   h3("Salary vs. Physical Health"),
-  plotlyOutput(outputId = "sal_phy_plot")
+  plotlyOutput(outputId = "sal_phy_plot"),
 )
 
 viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health",
   sidebarLayout(
     viz_3_sidebar,
-    viz_3_main_panel
+    viz_3_main_panel,
   )
 )
+
+
 
 
 
