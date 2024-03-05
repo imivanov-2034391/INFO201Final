@@ -20,7 +20,9 @@ my_theme <- bs_theme(bg = "white", #background
 
 overview_tab <- tabPanel("Introduction",
    h1("The Impact of Occupation on Physical Health"),
-   tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
+   h4("INFO 201 BH-5 Final Project"),
+   tags$b("Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
+   p("March 6th, 2024"),
    h3("Introduction"),
    
    img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="40%", width="40%", align="right"),
@@ -171,12 +173,12 @@ viz_1_sidebar <- sidebarPanel(
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("1.Physical activity levels among different occupations"),
+  h2("1.How do physical activity levels vary among different occupations?"),
   h3("Physical Activity vs. Occupation"),
   plotlyOutput(outputId = "phy_occ_plot")
 )
 
-viz_1_tab <- tabPanel("Physical Activity among Occupations",
+viz_1_tab <- tabPanel("Physical Activity vs. Occupation",
   sidebarLayout(
     viz_1_sidebar,
     viz_1_main_panel
@@ -198,12 +200,12 @@ viz_2_sidebar <- sidebarPanel(
 )
 
 viz_2_main_panel <- mainPanel(
-  h2("2. Best/worst (average) quality of sleep among different occupations"),
+  h2("2. What occupations among the dataset have the best/worst (average) quality of sleep?"),
   h3("Sleep Median vs. Occupation"),
   plotlyOutput(outputId = "sle_occ_plot")
 )
 
-viz_2_tab <- tabPanel("Sleep Quality among Occupation",
+viz_2_tab <- tabPanel("Median Sleep vs. Occupation",
                       sidebarLayout(
                         viz_2_sidebar,
                         viz_2_main_panel
@@ -219,12 +221,12 @@ viz_3_sidebar <- sidebarPanel(
 )
 
 viz_3_main_panel <- mainPanel(
-  h2("3. Potential correlation between salary and physical health"),
+  h2("3. Does a higher salary in high-stress jobs equate to poorer physical health?"),
   h3("Salary vs. Physical Health"),
   plotlyOutput(outputId = "sal_phy_plot")
 )
 
-viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health",
+viz_3_tab <- tabPanel("Salary vs. Physical Health",
   sidebarLayout(
     viz_3_sidebar,
     viz_3_main_panel
@@ -251,7 +253,7 @@ conclusion_tab <- tabPanel("Conclusion",
 )
 
 
-ui <- navbarPage("The Impact of Occupation on Physical Health Report",
+ui <- navbarPage("INFO 201 Final Project - BH Group 5",
   overview_tab,
   viz_1_tab,
   viz_2_tab,
