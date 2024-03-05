@@ -50,15 +50,15 @@ server <- function(input, output){
   output$sle_occ_plot <- renderPlotly({
     
     if (input$sle_occ_plot_type == "Best Quality of Sleep") {
-      min_quality <- min(combined_df$Quality.of.Sleep)
-      filtered_df <- combined_df %>% filter(Quality.of.Sleep == min_quality)
-     
+      sorted_df <- combined_df %>% arrange(Quality.of.Sleep)
+      filtered_df <- head(sorted_df, 10)  
+      
       p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', marker = list(color = '#636EFA')) %>%
         layout(title = paste("Occupations with Best Quality of Sleep"))
     } else if (input$sle_occ_plot_type == "Worst Quality of Sleep") {
-      max_quality <- max(combined_df$Quality.of.Sleep)
-      filtered_df <- combined_df %>% filter(Quality.of.Sleep == max_quality)
-     
+      sorted_df <- combined_df %>% arrange(desc(Quality.of.Sleep))
+      filtered_df <- head(sorted_df, 10) 
+      
       p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', marker = list(color = '#EF553B')) %>%
         layout(title = paste("Occupations with Worst Quality of Sleep"))
     } else {
