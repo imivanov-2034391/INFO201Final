@@ -107,8 +107,6 @@ overview_tab <- tabPanel("Introduction",
     
   tags$b("Overall, our compiled dataset is rather limited in terms of timeframe, the types of occupations represented, and simply the number of data points available."),
    
-   h3("Implications"),
-   p("context"),
    h3("Related Work"),
    
    p(""),
