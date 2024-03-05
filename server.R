@@ -70,7 +70,7 @@ server <- function(input, output){
   
   
   
-  # Interactive Page 3
+  # Interactive Page 3 - Salary and Health
   
   output$sal_phy_plot <- renderPlotly({
 
