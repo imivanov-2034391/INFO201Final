@@ -48,34 +48,36 @@ server <- function(input, output){
   # Interactive Page 2
   output$sle_occ_plot <- renderPlotly({
     
+  filtered_df <- combined_df %>% group_by(Occupation) %>% 
+    summarise(ave_sleep = mean(Quality.of.Sleep, na.rm = TRUE))
+    
     if (input$sle_occ_plot_type == "Best Quality of Sleep") {
-      sorted_df <- combined_df %>% arrange(Quality.of.Sleep)
-      filtered_df <- sorted_df[1:3, ]  
+      filtered_df <- filtered_df %>% arrange(ave_sleep) %>% slice(1:3)
+
+      my_plot <- ggplot(filtered_df) +
+        geom_col(mapping = aes(x = Occupation, y = ave_sleep, fill = Occupation)) + 
+        labs(title = "Best Sleep Quality Occupations", 
+             x = "Occupation", y = "Average Quality of Sleep")
       
-      
-      if (!"Salesperson" %in% filtered_df$Occupation) {
-        filtered_df <- rbind(filtered_df, combined_df[combined_df$Occupation == "Salesperson", ])
-      }
-      if (!"Scientist" %in% filtered_df$Occupation) {
-        filtered_df <- rbind(filtered_df, combined_df[combined_df$Occupation == "Scientist", ])
-      }
-      
-      p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', marker = list(color = '#636EFA')) %>%
-        layout(title = "Best Sleep Quality Occupations")
     } else if (input$sle_occ_plot_type == "Worst Quality of Sleep") {
-      sorted_df <- combined_df %>% arrange(desc(Quality.of.Sleep))
-      filtered_df <- sorted_df[1:3, ] 
+      filtered_df <- filtered_df %>% arrange(desc(ave_sleep)) %>% slice(1:3)
       
-      p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', 
-                   marker = list(color = '#EF553B')) %>%
-        layout(title = "Worst Sleep Quality Occupations")
-    } else {
-      return(NULL)
+      my_plot <- ggplot(filtered_df) +
+        geom_col(mapping = aes(x = Occupation, y = ave_sleep, fill = Occupation)) + 
+        labs(title = "Worst Sleep Quality Occupations", 
+             x = "Occupation", y = "Average Quality of Sleep")
+      
+    } else if (input$sle_occ_plot_type == "Overall Quality of Sleep") {
+
+      my_plot <- ggplot(filtered_df) +
+        geom_col(mapping = aes(x = Occupation, y = ave_sleep, fill = Occupation)) + 
+        labs(title = "Sleep Quality Occupations Overview", 
+             x = "Occupation", y = "Average Quality of Sleep")
     }
     
-    p
-  })
- 
+    return(ggplotly(my_plot))
+  }) 
+  
   
   # Interactive Page 3 - Salary and Health
   

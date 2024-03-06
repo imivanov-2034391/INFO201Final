@@ -200,8 +200,8 @@ viz_2_sidebar <- sidebarPanel(
   radioButtons(
     inputId = "sle_occ_plot_type",
     label = "Select plot type:",
-    choices = c("Best Quality of Sleep", "Worst Quality of Sleep"),
-    selected = "Best Quality of Sleep"
+    choices = c("Overall Quality of Sleep", "Best Quality of Sleep", "Worst Quality of Sleep"),
+    selected = "Overall Quality of Sleep"
   )
 )
 
