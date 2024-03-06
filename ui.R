@@ -11,9 +11,8 @@ library(shiny)
 # Color theme
 my_theme <- bs_theme(version = 3, 
                      bootswatch = "flatly",
-                     bg = "white", #background
-                     fg = "#033500", #foreground color
-                     primary = "black", #primary color
+                     bg = "#F2E7D4", #background
+                     fg = "black", #foreground color
                      )
 
 
@@ -25,7 +24,7 @@ overview_tab <- tabPanel("Introduction",
    tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h3("Introduction"),
    
-   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="25%", width="25%", align="right"),
+   img(src = 'https://cdn.pixabay.com/photo/2017/03/04/13/12/alarm-clock-2116007_1280.jpg', height="28%", width="28%", align="right"),
    
    p("In today’s society, where work plays a central role in our daily lives, 
    understanding the impact of specific occupation on individuals’ physical health 
@@ -160,28 +159,18 @@ overview_tab <- tabPanel("Introduction",
 ## VIZ 1 TAB INFO
 
 viz_1_sidebar <- sidebarPanel(
-  h3("Select Occupations"),
-  selectInput(
-    inputId = "user_selection",
-    label = "Slect Occupations to display:",
-    choices = combined_df$Occupation,
-    selected = c("Nurse", "Doctor", "Lawyer"),
-    multiple = TRUE
-  ),
+  h3("Options"),
   checkboxInput (
     inputId = "phy_occ_plot_60" ,
-    label = "Display occupations with physical activity levels above 60 ONLY"
+    label = "Physical activity levels above 60"
   )
+  
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("Physical activity levels among different occupations"),
-  h4("Physical Activity vs. Occupation"),
-  plotlyOutput(outputId = "phy_occ_plot"),
-  h4("Importance of Data"),
-  p("This plot visualizes the amount of physical activity among different occupations in the 0-100 scale. 
-  Using this graph you can select specific occupations to compare their physical activity levels
-  which helps to visualize the pattern of physical health among various occupations.")
+  h2("1. Physical activity levels among different occupations"),
+  h3("Physical Activity vs. Occupation"),
+  plotlyOutput(outputId = "phy_occ_plot")
 )
 
 viz_1_tab <- tabPanel("Physical Activity among Occupations",
@@ -206,13 +195,9 @@ viz_2_sidebar <- sidebarPanel(
 )
 
 viz_2_main_panel <- mainPanel(
-  h2("Best/worst average quality of sleep among different occupations"),
-  h4("Sleep Median vs. Occupation"),
-  plotlyOutput(outputId = "sle_occ_plot"),
-  h4("Importance of Data"),
-  p("Both graphs generate different occupations with best and worst average
-  quality of sleep evaluated by sleep hours median. Both can help offer 
-  insights into which careers may be more conducive to better sleep health.")
+  h2("2. Best/worst (average) quality of sleep among different occupations"),
+  h3("Sleep Median vs. Occupation"),
+  plotlyOutput(outputId = "sle_occ_plot")
 )
 
 viz_2_tab <- tabPanel("Sleep Quality among Occupation",
@@ -223,37 +208,71 @@ viz_2_tab <- tabPanel("Sleep Quality among Occupation",
 )
 
 
-
 ## VIZ 3 TAB INFO
 
 viz_3_sidebar <- sidebarPanel(
-  h3("Multiple Health Variables"),
+  h3("Choose a Health Variable"),
   radioButtons(
     inputId = "viz_3inputid",
     label = "Select plot type:",
-    choices = c("Blood Pressure", "Heart Rate", "Daily Steps", "Physical Activity Level"),
-    selected = "Blood Pressure"
+    choices = c("Heart Rate", "Blood Pressure", "Daily Steps", "Physical Activity Level"),
+    selected = "Heart Rate"
+  ),
+  
+  h3("Annual Average Salary or Average Hourly Wage"),
+  radioButtons(
+    inputId = "viz_3inputid2",
+    label = "Select:",
+    choices = c("Average Annual Salary", "Average Hourly Wage"),
+    selected = "Average Annual Salary"
   )
 )
 
+
 viz_3_main_panel <- mainPanel(
-  h2("Potential Correlation between Salary and Physical Health"),
-  h4("Salary vs. Physical Health"),
+  h2("3. Potential Correlation between Salary and Physical Health"),
+  h3("Salary vs. Physical Health"),
   plotlyOutput(outputId = "sal_phy_plot"),
-  h4("Importance of Data"),
-  p("The series of interactive scatter plots visualizes the potential correlations
-  between average annual salary and various physical health varaibles. Users can 
-  select from blood pressure, heart rate, daily steps, and physical activity level
-  to compare against salary data. Each plot suggests different trends, such as the 
-  possible impact of income on health-related factors which allow for the exploration
-  of detailed data for each entry in the dataset.")
 )
 
 viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health",
-  sidebarLayout(
-    viz_3_sidebar,
-    viz_3_main_panel,
+                      sidebarLayout(
+                        viz_3_sidebar,
+                        viz_3_main_panel,
+                      )
+)
+
+## VIZ 4 TAB INFO
+
+viz_4_sidebar <- sidebarPanel(
+  h3("Choose a Health Variable"),
+  radioButtons(
+    inputId = "viz_4inputid",
+    label = "Select plot:",
+    choices = c("Body Mass Index", "Has Sleep Disorder"),
+    selected = "Body Mass Index"
+  ),
+  
+  h3("Annual Average Salary or Average Hourly Wage"),
+  radioButtons(
+    inputId = "viz_4inputid2",
+    label = "Select:",
+    choices = c("Average Annual Salary", "Average Hourly Wage"),
+    selected = "Average Annual Salary"
   )
+)
+
+
+viz_4_main_panel <- mainPanel(
+  h2("3. Potential Correlation between Salary and Physical Health Continued"),
+  plotlyOutput(outputId = "sal_phy_plot2"),
+)
+
+viz_4_tab <- tabPanel("Salary and Physical Health Continued",
+                      sidebarLayout(
+                        viz_4_sidebar,
+                        viz_4_main_panel,
+                      )
 )
 
 
@@ -262,10 +281,11 @@ viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health"
 
 conclusion_tab <- tabPanel("Conclusion",
  h1("Conclusion"),
+
+ img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="30%", width="30%", align="left"),
+ 
  
  h3("Takeaway 1"),
- img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="35%", width="35%", align="right"),
-
  p("To illustrate the varying levels of physical activity required by different 
     occupations, our first graph highlights the significance of acknowledging these 
     differences. By considering the physical activity levels in various occupations, 
@@ -292,7 +312,7 @@ conclusion_tab <- tabPanel("Conclusion",
    jobs can lead to increased efficiency and performance in the workplace."),
  h3("Broader Implications"),
  
- img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="35%", width="35%", align="right"),
+ img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="30%", width="30%", align="right"),
  
  p("The data on physical health and wages disparities across occupations carries 
    significant Implications for various aspects of our society. By understanding 
@@ -328,5 +348,6 @@ ui <- navbarPage("The Relationship Between Occupation and Physical Health",
   viz_1_tab,
   viz_2_tab,
   viz_3_tab,
+  viz_4_tab,
   conclusion_tab
 )
