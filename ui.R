@@ -242,11 +242,10 @@ viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health"
 
 conclusion_tab <- tabPanel("Conclusion",
  h1("Conclusion"),
-
- img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="30%", width="30%", align="left"),
- 
  
  h3("Takeaway 1"),
+ img(src = 'https://res.cloudinary.com/tripactions/image/upload/f_auto/q_auto/v1661189557/compose/blog/refresh-erg-employee-wellness.jpg?fit=pad&w=760', height="35%", width="35%", align="right"),
+
  p("To illustrate the varying levels of physical activity required by different 
     occupations, our first graph highlights the significance of acknowledging these 
     differences. By considering the physical activity levels in various occupations, 
@@ -273,7 +272,7 @@ conclusion_tab <- tabPanel("Conclusion",
    jobs can lead to increased efficiency and performance in the workplace."),
  h3("Broader Implications"),
  
- img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="30%", width="30%", align="right"),
+ img(src = 'https://cdn.papershift.com/20220808102940/employee-wellness-program-at-workplaces-explained-by-Papershift-min-910x500.jpeg', height="35%", width="35%", align="right"),
  
  p("The data on physical health and wages disparities across occupations carries 
    significant Implications for various aspects of our society. By understanding 
