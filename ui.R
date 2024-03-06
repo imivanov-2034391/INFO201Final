@@ -185,7 +185,7 @@ viz_1_tab <- tabPanel("Physical Activity among Occupations",
 ## VIZ 2 TAB INFO
 
 viz_2_sidebar <- sidebarPanel(
-  h3("Options"),
+  h3("Select Sleep Quality"),
   radioButtons(
     inputId = "sle_occ_plot_type",
     label = "Select plot type:",
