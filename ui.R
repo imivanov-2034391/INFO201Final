@@ -109,7 +109,50 @@ overview_tab <- tabPanel("Introduction",
     
   tags$b("Overall, our compiled dataset is rather limited in terms of timeframe, the types of occupations represented, and simply the number of data points available."),
 
-  ) 
+  h3("Related Works"),
+  
+  p(""),
+  
+  tags$ul(
+    
+    tags$li(tags$b(em("CDC (2022) Sleep for good health, Centers for Disease Control and Prevention."))),
+    a("https://www.cdc.gov/sleep/features/getting-enough-sleep.html"),
+    p(""),
+    
+    p("Contains background information on sleep health and quality, along with other sources on sleep quality, 
+      disorders, and outreach programs. We used the CDC website in order to gain a basic understanding of how sleep may impact health."),
+    
+    tags$li(tags$b(em("‘Why sleep matters—the economic costs of insufficient sleep’, Rand Health Quarterly, 6(4), p. 11."))),
+    a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5627640/"),
+    p(""),
+    
+    p("Frames the issue of insufficient sleep as a matter of public health, and details everything related to that, 
+        including economic factors, has the main objective of quantifying the cost of insufficient sleep. "),
+    
+    tags$li(tags$b(em("Lack of sleep costs Americans billions of dollars each year - CBS News"))),
+    a("https://www.cbsnews.com/news/lack-of-sleep-costs-americans-billions-of-dollars-each-year/"),
+    p("An article that we used to look at larger costs of sleep, was quoted in our story pitch. Contains figures from a few different studies."),
+    
+    tags$li(tags$b(em("Who gets the best sleep? Ethnic and socioeconomic 
+                        factors related to sleep complaints, Journal of Sleep Medicine, 11(5), pp. 470–478. "))),
+    a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2861987/ "),
+    p("Indicates that there are a variety of socioeconomic factors that may lead to insufficient sleep, including wages."),
+    
+    p("A source that looks largely at the broader economic impact of sleep deprivation on the healthcare system. 
+        While that isn’t the main focus of our project, it is one of the references that made us consider how economics 
+        and finances play a role in regard to physical health such as sleep deprivation."),
+    
+    tags$li(tags$b(em("The association between sleep disorders, employment, and income among adults in the United States"))),
+    a("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9340609/"),
+    p("It shows that people with poor sleep health have lower unemployment rates, 
+      lower wages, and higher utilization of welfare income. 
+      Considers a number of demographic factors such as age, race, and medical conditions."),
+      
+    p("A source that looks largely at the broader economic impact of sleep deprivation on the healthcare system. 
+        While that isn’t the main focus of our project, it is one of the references that made us consider how economics 
+        and finances play a role in regard to physical health such as sleep deprivation."),
+  
+  )) 
 
 
 
