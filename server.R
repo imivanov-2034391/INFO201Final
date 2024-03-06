@@ -136,52 +136,8 @@ server <- function(input, output){
                  yaxis = list(title = "Average Hourly Wage (in U.S. Dollars)"))
       }
     }
-    
-    
-    
-    
   })
   
   
-  
-  
-  # Interactive Page 4 - Salary and Health
-  
-  output$sal_phy_plot2 <- renderPlotly({
-    
-    health_df <- combined_df %>% arrange(A_MEAN)
-    
-    if(input$viz_4inputid2 == "Average Annual Salary") {
-      if (input$viz_4inputid == "Body Mass Index") {
-        my_plot4 <- plot_ly(data = health_df, x = ~BMI.Category, y = ~A_MEAN, type = 'bar',
-                            marker = list(color = ~A_MEAN, colorscale = 'Greens', reversescale = TRUE)) %>%
-          layout(title = paste("Body Mass Index (BMI) and Average Annual Salary"),
-                 xaxis = list(title = "BMI"),
-                 yaxis = list(title = "Average Annual Salary", showticklabels = FALSE))  
-      } else if (input$viz_4inputid == "Has Sleep Disorder") {
-        my_plot4 <- plot_ly(data = health_df, x = ~Sleep.Disorder, y = ~A_MEAN, type = 'bar',
-                            marker = list(color = ~A_MEAN, colorscale = 'Blues', reversescale = TRUE)) %>%
-          layout(title = paste("Sleep Disorder and Average Annual Salary"),
-                 xaxis = list(title = "Sleep Disorder"),
-                 yaxis = list(title = "Average Annual Salary", showticklabels = FALSE))  
-      }
-    } else if (input$viz_4inputid2 == "Average Hourly Wage") {
-      if (input$viz_4inputid == "Body Mass Index") {
-        my_plot4 <- plot_ly(data = health_df, x = ~BMI.Category, y = ~H_MEAN, type = 'bar',
-                            marker = list(color = ~A_MEAN, colorscale = 'Greens', reversescale = TRUE)) %>%
-          layout(title = paste("Body Mass Index (BMI) and Average Hourly Wage"),
-                 xaxis = list(title = "BMI"),
-                 yaxis = list(title = "Average Hourly Wage", showticklabels = FALSE))  
-      } else if (input$viz_4inputid == "Has Sleep Disorder") {
-        my_plot4 <- plot_ly(data = health_df, x = ~Sleep.Disorder, y = ~H_MEAN, type = 'bar',
-                            marker = list(color = ~A_MEAN, colorscale = 'Blues', reversescale = TRUE)) %>%
-          layout(title = paste("Sleep Disorder and Average Hourly Wage"),
-                 xaxis = list(title = "Sleep Disorder"),
-                 yaxis = list(title = "Average Hourly Wage", showticklabels = FALSE))  
-      }
-    }
-    
-    
-  })
-  
+
 }
