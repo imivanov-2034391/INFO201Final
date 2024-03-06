@@ -11,8 +11,8 @@ library(shiny)
 # Color theme
 my_theme <- bs_theme(version = 3, 
                      bootswatch = "flatly",
-                     bg = "#F2E7D4", #background
-                     fg = "black", #foreground color
+                     bg = "white", #background
+                     fg = "#05014a", #foreground color
                      )
 
 
