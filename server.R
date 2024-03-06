@@ -13,6 +13,7 @@ library(shiny)
 # Load data
 combined_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
 
+
 server <- function(input, output){
   
   

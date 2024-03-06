@@ -250,8 +250,8 @@ viz_3_main_panel <- mainPanel(
   plotlyOutput(outputId = "sal_phy_plot"),
   h4("Importance of Data"),
   p("The series of interactive scatter plots visualizes the potential correlations
-  between average annual salary and various physical health varaibles. Users can 
-  select from blood pressure, heart rate, daily steps, and physical activity level
+  between average annual/hourly salary and various physical health varaibles. Users
+  can select from blood pressure, heart rate, daily steps, and physical activity level
   to compare against salary data. Each plot suggests different trends, such as the 
   possible impact of income on health-related factors which allow for the exploration
   of detailed data for each entry in the dataset.")
