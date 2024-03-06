@@ -1,5 +1,5 @@
 # INFO 201 Final Project -- Final Deliverable
-# Section BH
+# Section BH-5
 # Group member: Sera Lee, Lele Zhang, Ivette Ivanov, Sohyun Han
 
 
