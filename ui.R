@@ -10,6 +10,10 @@ library(dplyr)
 library(bslib)
 library(shiny)
 
+# Load data
+combined_df <- read.csv("Comprehensive Physical Health and Occupational Statistics Dataset.csv")
+
+
 # Color theme
 my_theme <- bs_theme(version = 3, 
                      bootswatch = "paper",
