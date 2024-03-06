@@ -46,6 +46,7 @@ server <- function(input, output){
   
   
   # Interactive Page 2
+  
   output$sle_occ_plot <- renderPlotly({
     
   filtered_df <- combined_df %>% group_by(Occupation) %>% 
