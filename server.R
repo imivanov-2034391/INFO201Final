@@ -49,16 +49,25 @@ server <- function(input, output){
     
     if (input$sle_occ_plot_type == "Best Quality of Sleep") {
       sorted_df <- combined_df %>% arrange(Quality.of.Sleep)
-      filtered_df <- head(sorted_df, 10)  
+      filtered_df <- sorted_df[1:3, ]  
+      
+      # Ensure Salesperson and Scientist are included
+      if (!"Salesperson" %in% filtered_df$Occupation) {
+        filtered_df <- rbind(filtered_df, combined_df[combined_df$Occupation == "Salesperson", ])
+      }
+      if (!"Scientist" %in% filtered_df$Occupation) {
+        filtered_df <- rbind(filtered_df, combined_df[combined_df$Occupation == "Scientist", ])
+      }
       
       p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', marker = list(color = '#636EFA')) %>%
-        layout(title = paste("Occupations with Best Quality of Sleep"))
+        layout(title = "Best Sleep Quality Occupations")
     } else if (input$sle_occ_plot_type == "Worst Quality of Sleep") {
       sorted_df <- combined_df %>% arrange(desc(Quality.of.Sleep))
-      filtered_df <- head(sorted_df, 10)  
+      filtered_df <- sorted_df[1:3, ] 
+      
       p <- plot_ly(data = filtered_df, x = ~Occupation, y = ~Quality.of.Sleep, type = 'bar', 
                    marker = list(color = '#EF553B')) %>%
-        layout(title = paste("Occupations with Worst Quality of Sleep"))
+        layout(title = "Worst Sleep Quality Occupations")
     } else {
       return(NULL)
     }
