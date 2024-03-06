@@ -1,0 +1,13 @@
+name: Occupation_and_Physical_Health
+title: Occupation_and_Physical_Health
+username: lelez
+account: lelez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11418751
+bundleId: 8340131
+url: https://lelez.shinyapps.io/Occupation_and_Physical_Health/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: INFO 201 Final Data.R|INFO 201 Final Project Data Nutrition Label.pdf|Occupation Conversion Chart.csv|Occupation Employment and Wage Statistics.csv|README.md|Sleep Health and Lifestyle Dataset.csv
