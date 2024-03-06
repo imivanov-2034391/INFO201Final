@@ -76,41 +76,111 @@ server <- function(input, output){
   })
  
   
-  
-  
-  
   # Interactive Page 3 - Salary and Health
   
   output$sal_phy_plot <- renderPlotly({
-
+    
     health_df <- combined_df %>% arrange(A_MEAN)
-
-    if (input$viz_3inputid == "Heart Rate") {
-      my_plot3 <- plot_ly(data = health_df, x = ~Heart.Rate, y = ~A_MEAN, type = 'scatter',
-                          marker = list(color = '#345')) %>%
-        layout(title = paste("Heart Rate"),
-               xaxis = list(title = "Heart Rate"),
-               yaxis = list(title = "Average Annual Salary"))  
-    } else if (input$viz_3inputid == "Blood Pressure") {
-      my_plot3 <- plot_ly(data = health_df, x = ~A_MEAN, y = ~Blood.Pressure, type = 'scatter', 
-                          marker = list(color = '#EF553B')) %>%
-        layout(title = paste("Blood Pressure"),
-               xaxis = list(title = "Average Annual Salary"),      
-               yaxis = list(title = "Blood Pressure"))
-    } else if (input$viz_3inputid == "Daily Steps") {
-      my_plot3 <- plot_ly(data = health_df, x = ~Daily.Steps, y = ~A_MEAN, type = 'scatter', 
-                          marker = list(color = '#32B')) %>%
-        layout(title = paste("Daily Steps"),
-               xaxis = list(title = "Daily Steps"),
-               yaxis = list(title = "Average Annual Salary"))
-    } else if (input$viz_3inputid == "Physical Activity Level") {
-      my_plot3 <- plot_ly(data = health_df, x = ~Physical.Activity.Level, y = ~A_MEAN, type = 'scatter', 
-                          marker = list(color = '#53BBBC')) %>%
-        layout(title = paste("Physical Activity Level"),
-               xaxis = list(title = "Physical Activity Level"),
-               yaxis = list(title = "Average Annual Salary"))
+    
+    if(input$viz_3inputid2 == "Average Annual Salary"){
+      if (input$viz_3inputid == "Heart Rate") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Heart.Rate, y = ~A_MEAN, type = 'scatter',
+                            marker = list(color = '#345')) %>%
+          layout(title = paste("Heart Rate"),
+                 xaxis = list(title = "Heart Rate"),
+                 yaxis = list(title = "Average Annual Salary (in U.S. dollars)"))  
+      } else if (input$viz_3inputid == "Blood Pressure") {
+        my_plot3 <- plot_ly(data = health_df, x = ~A_MEAN, y = ~Blood.Pressure, type = 'scatter', 
+                            marker = list(color = '#EF553B')) %>%
+          layout(title = paste("Blood Pressure"),
+                 xaxis = list(title = "Average Annual Salary (in U.S. dollars)"),      
+                 yaxis = list(title = "Blood Pressure"))
+      } else if (input$viz_3inputid == "Daily Steps") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Daily.Steps, y = ~A_MEAN, type = 'scatter', 
+                            marker = list(color = '#32B')) %>%
+          layout(title = paste("Daily Steps"),
+                 xaxis = list(title = "Daily Steps"),
+                 yaxis = list(title = "Average Annual Salary (in U.S. dollars)"))
+      } else if (input$viz_3inputid == "Physical Activity Level") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Physical.Activity.Level, y = ~A_MEAN, type = 'scatter', 
+                            marker = list(color = '#53BBBC')) %>%
+          layout(title = paste("Physical Activity Level"),
+                 xaxis = list(title = "Physical Activity Level"),
+                 yaxis = list(title = "Average Annual Salary (in U.S. dollars)"))
+      }
+    } else if (input$viz_3inputid2== "Average Hourly Wage"){
+      if (input$viz_3inputid == "Heart Rate") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Heart.Rate, y = ~H_MEAN, type = 'scatter',
+                            marker = list(color = '#345')) %>%
+          layout(title = paste("Heart Rate"),
+                 xaxis = list(title = "Heart Rate"),
+                 yaxis = list(title = "Average Hourly Wage (in U.S. Dollars)"))  
+      } else if (input$viz_3inputid == "Blood Pressure") {
+        my_plot3 <- plot_ly(data = health_df, x = ~H_MEAN, y = ~Blood.Pressure, type = 'scatter', 
+                            marker = list(color = '#EF553B')) %>%
+          layout(title = paste("Blood Pressure"),
+                 xaxis = list(title = "Average Hourly Wage (in U.S. Dollars)"),      
+                 yaxis = list(title = "Blood Pressure"))
+      } else if (input$viz_3inputid == "Daily Steps") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Daily.Steps, y = ~H_MEAN, type = 'scatter', 
+                            marker = list(color = '#32B')) %>%
+          layout(title = paste("Daily Steps"),
+                 xaxis = list(title = "Daily Steps"),
+                 yaxis = list(title = "Average Hourly Wage (in U.S. Dollars)"))
+      } else if (input$viz_3inputid == "Physical Activity Level") {
+        my_plot3 <- plot_ly(data = health_df, x = ~Physical.Activity.Level, y = ~H_MEAN, type = 'scatter', 
+                            marker = list(color = '#53BBBC')) %>%
+          layout(title = paste("Physical Activity Level"),
+                 xaxis = list(title = "Physical Activity Level"),
+                 yaxis = list(title = "Average Hourly Wage (in U.S. Dollars)"))
+      }
     }
-
+    
+    
+    
+    
   })
-
+  
+  
+  
+  
+  # Interactive Page 4 - Salary and Health
+  
+  output$sal_phy_plot2 <- renderPlotly({
+    
+    health_df <- combined_df %>% arrange(A_MEAN)
+    
+    if(input$viz_4inputid2 == "Average Annual Salary") {
+      if (input$viz_4inputid == "Body Mass Index") {
+        my_plot4 <- plot_ly(data = health_df, x = ~BMI.Category, y = ~A_MEAN, type = 'bar',
+                            marker = list(color = ~A_MEAN, colorscale = 'Greens', reversescale = TRUE)) %>%
+          layout(title = paste("Body Mass Index (BMI) and Average Annual Salary"),
+                 xaxis = list(title = "BMI"),
+                 yaxis = list(title = "Average Annual Salary", showticklabels = FALSE))  
+      } else if (input$viz_4inputid == "Has Sleep Disorder") {
+        my_plot4 <- plot_ly(data = health_df, x = ~Sleep.Disorder, y = ~A_MEAN, type = 'bar',
+                            marker = list(color = ~A_MEAN, colorscale = 'Blues', reversescale = TRUE)) %>%
+          layout(title = paste("Sleep Disorder and Average Annual Salary"),
+                 xaxis = list(title = "Sleep Disorder"),
+                 yaxis = list(title = "Average Annual Salary", showticklabels = FALSE))  
+      }
+    } else if (input$viz_4inputid2 == "Average Hourly Wage") {
+      if (input$viz_4inputid == "Body Mass Index") {
+        my_plot4 <- plot_ly(data = health_df, x = ~BMI.Category, y = ~H_MEAN, type = 'bar',
+                            marker = list(color = ~A_MEAN, colorscale = 'Greens', reversescale = TRUE)) %>%
+          layout(title = paste("Body Mass Index (BMI) and Average Hourly Wage"),
+                 xaxis = list(title = "BMI"),
+                 yaxis = list(title = "Average Hourly Wage", showticklabels = FALSE))  
+      } else if (input$viz_4inputid == "Has Sleep Disorder") {
+        my_plot4 <- plot_ly(data = health_df, x = ~Sleep.Disorder, y = ~H_MEAN, type = 'bar',
+                            marker = list(color = ~A_MEAN, colorscale = 'Blues', reversescale = TRUE)) %>%
+          layout(title = paste("Sleep Disorder and Average Hourly Wage"),
+                 xaxis = list(title = "Sleep Disorder"),
+                 yaxis = list(title = "Average Hourly Wage", showticklabels = FALSE))  
+      }
+    }
+    
+    
+  })
+  
 }

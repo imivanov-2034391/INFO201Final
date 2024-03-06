@@ -217,6 +217,14 @@ viz_3_sidebar <- sidebarPanel(
     label = "Select plot type:",
     choices = c("Heart Rate", "Blood Pressure", "Daily Steps", "Physical Activity Level"),
     selected = "Heart Rate"
+  ),
+  
+  h3("Annual Average Salary or Average Hourly Wage"),
+  radioButtons(
+    inputId = "viz_3inputid2",
+    label = "Select:",
+    choices = c("Average Annual Salary", "Average Hourly Wage"),
+    selected = "Average Annual Salary"
   )
 )
 
@@ -228,13 +236,44 @@ viz_3_main_panel <- mainPanel(
 )
 
 viz_3_tab <- tabPanel("Potential Correlation between Salary and Physical Health",
-  sidebarLayout(
-    viz_3_sidebar,
-    viz_3_main_panel,
+                      sidebarLayout(
+                        viz_3_sidebar,
+                        viz_3_main_panel,
+                      )
+)
+
+## VIZ 4 TAB INFO
+
+viz_4_sidebar <- sidebarPanel(
+  h3("Choose a Health Variable"),
+  radioButtons(
+    inputId = "viz_4inputid",
+    label = "Select plot:",
+    choices = c("Body Mass Index", "Has Sleep Disorder"),
+    selected = "Body Mass Index"
+  ),
+  
+  h3("Annual Average Salary or Average Hourly Wage"),
+  radioButtons(
+    inputId = "viz_4inputid2",
+    label = "Select:",
+    choices = c("Average Annual Salary", "Average Hourly Wage"),
+    selected = "Average Annual Salary"
   )
 )
 
 
+viz_4_main_panel <- mainPanel(
+  h2("3. Potential Correlation between Salary and Physical Health Continued"),
+  plotlyOutput(outputId = "sal_phy_plot2"),
+)
+
+viz_4_tab <- tabPanel("Salary and Physical Health Continued",
+                      sidebarLayout(
+                        viz_4_sidebar,
+                        viz_4_main_panel,
+                      )
+)
 
 
 
@@ -309,5 +348,6 @@ ui <- navbarPage("The Relationship Between Occupation and Physical Health",
   viz_1_tab,
   viz_2_tab,
   viz_3_tab,
+  viz_4_tab,
   conclusion_tab
 )
