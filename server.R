@@ -51,7 +51,7 @@ server <- function(input, output){
       sorted_df <- combined_df %>% arrange(Quality.of.Sleep)
       filtered_df <- sorted_df[1:3, ]  
       
-      # Ensure Salesperson and Scientist are included
+      
       if (!"Salesperson" %in% filtered_df$Occupation) {
         filtered_df <- rbind(filtered_df, combined_df[combined_df$Occupation == "Salesperson", ])
       }
