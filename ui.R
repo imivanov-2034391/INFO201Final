@@ -10,10 +10,10 @@ library(shiny)
 
 # Color theme
 my_theme <- bs_theme(version = 3, 
-                     bootswatch = "Flatly",
+                     bootswatch = "paper",
                      bg = "white", #background
-                     fg = "#033500", #foreground color
-                     primary = "black", #primary color
+                     fg = "black", #foreground color
+                     primary = "#60A3D9", #primary color
                      )
 
 
@@ -160,7 +160,7 @@ overview_tab <- tabPanel("Introduction",
 ## VIZ 1 TAB INFO
 
 viz_1_sidebar <- sidebarPanel(
-  h3("Select Occupations"),
+  h4("Select Occupations"),
   selectInput(
     inputId = "user_selection",
     label = "Slect Occupations to display:",
@@ -170,12 +170,12 @@ viz_1_sidebar <- sidebarPanel(
   ),
   checkboxInput (
     inputId = "phy_occ_plot_60" ,
-    label = "Display occupations with physical activity levels above 60 ONLY"
+    label = "Occupations with physical activity levels above 60 ONLY"
   )
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("Physical activity levels among different occupations"),
+  h3("Physical activity levels among different occupations"),
   h4("Physical Activity vs. Occupation"),
   plotlyOutput(outputId = "phy_occ_plot"),
   h4("Importance of Data"),
@@ -196,7 +196,7 @@ viz_1_tab <- tabPanel("Physical Activity among Occupations",
 ## VIZ 2 TAB INFO
 
 viz_2_sidebar <- sidebarPanel(
-  h3("Select Sleep Quality"),
+  h4("Select Sleep Quality"),
   radioButtons(
     inputId = "sle_occ_plot_type",
     label = "Select plot type:",
@@ -206,7 +206,7 @@ viz_2_sidebar <- sidebarPanel(
 )
 
 viz_2_main_panel <- mainPanel(
-  h2("Best/worst average quality of sleep among different occupations"),
+  h3("Best/worst average quality of sleep among different occupations"),
   h4("Sleep Median vs. Occupation"),
   plotlyOutput(outputId = "sle_occ_plot"),
   h4("Importance of Data"),
@@ -226,7 +226,7 @@ viz_2_tab <- tabPanel("Sleep Quality among Occupation",
 ## VIZ 3 TAB INFO
 
 viz_3_sidebar <- sidebarPanel(
-  h3("Choose a Health Variable"),
+  h4("Choose a Health Variable"),
   radioButtons(
     inputId = "viz_3inputid",
     label = "Select plot type:",
@@ -234,7 +234,7 @@ viz_3_sidebar <- sidebarPanel(
     selected = "Blood Pressure"
   ),
   
-  h3("Annual Average Salary or Average Hourly Wage"),
+  h4("Annual Average / Hourly Wage"),
   radioButtons(
     inputId = "viz_3inputid2",
     label = "Select:",
@@ -243,9 +243,8 @@ viz_3_sidebar <- sidebarPanel(
   )
 )
 
-
 viz_3_main_panel <- mainPanel(
-  h2("Potential Correlation between Salary and Physical Health"),
+  h3("Potential Correlation between Salary and Physical Health"),
   h4("Salary vs. Physical Health"),
   plotlyOutput(outputId = "sal_phy_plot"),
   h4("Importance of Data"),
