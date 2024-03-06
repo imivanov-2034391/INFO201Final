@@ -2,6 +2,8 @@
 # Section BH-5
 # Group member: Sera Lee, Lele Zhang, Ivette Ivanov, Sohyun Han
 
+
+# Load libraries
 library(ggplot2)
 library(plotly)
 library(dplyr)
