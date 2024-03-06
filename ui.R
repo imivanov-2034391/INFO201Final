@@ -21,7 +21,7 @@ my_theme <- bs_theme(version = 3,
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Introduction",
-   h1("The Relationship Between Occupation and Physical Health"),
+   h2("The Relationship Between Occupation and Physical Health"),
    tags$b("BH-5 Group Members:"), p("Sohyun Han, Sera Lee, Ivette Immanov, Lele Zhang"),
    h3("Introduction"),
    
